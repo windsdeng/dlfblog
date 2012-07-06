@@ -1,0 +1,68 @@
+2012/04/02 05:24:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in E:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 E:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 E:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 E:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/04/02 05:26:10 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in E:\wwwroot\dlfblog\framework\web\CController.php:879
+Stack trace:
+#0 E:\wwwroot\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#1 E:\wwwroot\dlfblog\protected\admin\controllers\SiteController.php(32): CController->render('index')
+#2 E:\wwwroot\dlfblog\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 E:\wwwroot\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#7 E:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#8 E:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 E:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/04/02 05:26:23 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in E:\wwwroot\dlfblog\framework\web\CController.php:879
+Stack trace:
+#0 E:\wwwroot\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#1 E:\wwwroot\dlfblog\protected\admin\controllers\SiteController.php(32): CController->render('index')
+#2 E:\wwwroot\dlfblog\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 E:\wwwroot\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#7 E:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#8 E:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 E:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/04/02 05:26:51 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in E:\wwwroot\dlfblog\framework\web\CController.php:879
+Stack trace:
+#0 E:\wwwroot\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#1 E:\wwwroot\dlfblog\protected\admin\controllers\SiteController.php(32): CController->render('index')
+#2 E:\wwwroot\dlfblog\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 E:\wwwroot\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#7 E:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#8 E:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 E:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/04/02 05:27:31 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in E:\wwwroot\dlfblog\framework\web\CController.php:879
+Stack trace:
+#0 E:\wwwroot\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#1 E:\wwwroot\dlfblog\protected\admin\controllers\SiteController.php(32): CController->render('index')
+#2 E:\wwwroot\dlfblog\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 E:\wwwroot\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 E:\wwwroot\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 E:\wwwroot\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#7 E:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#8 E:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 E:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
