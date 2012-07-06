@@ -29,7 +29,7 @@ class User extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'dlf_user';
+		return '{{user}}';
 	}
 
 	/**

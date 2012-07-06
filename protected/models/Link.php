@@ -31,7 +31,7 @@ class Link extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'dlf_link';
+		return '{{link}}';
 	}
 
 	/**

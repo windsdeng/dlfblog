@@ -26,7 +26,7 @@ class Category extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'dlf_category';
+		return '{{category}}';
 	}
 
 	/**

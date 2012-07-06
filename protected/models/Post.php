@@ -37,7 +37,7 @@ class Post extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'dlf_post';
+		return '{{post}}';
 	}
 
 	/**

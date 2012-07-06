@@ -24,7 +24,7 @@ class Tag extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'dlf_tag';
+		return '{{tag}}';
 	}
 
 	/**

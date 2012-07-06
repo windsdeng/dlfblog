@@ -33,7 +33,7 @@ class Comment extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'dlf_comment';
+		return '{{comment}}';
 	}
 
 	/**

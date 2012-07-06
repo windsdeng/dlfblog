@@ -25,7 +25,7 @@ class Options extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'dlf_options';
+		return '{{options}}';
 	}
 
 	/**

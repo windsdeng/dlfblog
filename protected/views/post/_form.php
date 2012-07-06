@@ -14,18 +14,9 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'content'); ?>
-		<?php $this->widget('ext.markitup.EMarkitupWidget',array(
-            'model'=>$model,
-            'attribute'=>'content',
-            'htmlOptions'=>array('style'=>'width: 630px;resize: none;'),
-			'options'=>array(
-               // 'previewParserPath'=>$this->createUrl('preview'),
-            ),
-        ));?>
-        
-		<?php //echo CHtml::activeTextArea($model,'content',array('rows'=>10, 'cols'=>70)); ?>
+		<?php echo CHtml::activeTextArea($model,'content',array('rows'=>10, 'cols'=>89)); ?>
 		<p class="hint">You may use Markdown syntax.</p>
-		<?php echo $form->error($model,'content'); ?>==
+		<?php echo $form->error($model,'content'); ?>
 	</div>
 	<div class="row">
 		<script type="text/javascript"><!--

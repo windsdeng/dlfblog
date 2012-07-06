@@ -28,7 +28,7 @@ class Attachment extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'dlf_attachment';
+		return '{{attachment}}';
 	}
 
 	/**
