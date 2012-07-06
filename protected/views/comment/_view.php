@@ -22,7 +22,7 @@
 			'submit'=>array('comment/delete','id'=>$data->id),
 			'confirm'=>"Are you sure to delete comment #{$data->id}?",
 		)); ?> |
-		<?php echo date('F j, Y \a\t h:i a',$data->create_time); ?>
+		<?php echo date('F j, Y \a\t h:i a',$data->created); ?>
 	</div>
 
 	<div class="content">
