@@ -3,14 +3,12 @@ DLFBLOG 1.0
 
 基于Yii 框架开发的博客！ 
 
------------------
 
 Quick start
 -----------
 
 Clone the repo, `git clone git://github.com/windsdeng/dlfblog.git`, or [download the latest release](https://github.com/windsdeng/dlfblog/zipball/master).
 
-----------
 
 Bug tracker
 -----------
