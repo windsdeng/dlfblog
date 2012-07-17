@@ -5822,3 +5822,564 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2012/07/17 18:12:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/
+---
+2012/07/17 18:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:12:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/post/14?title=code
+---
+2012/07/17 18:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:12:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/login
+---
+2012/07/17 18:12:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/login
+---
+2012/07/17 18:12:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:12:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/post/create
+---
+2012/07/17 18:12:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:13:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home/index
+---
+2012/07/17 18:13:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:13:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/page?view=about
+---
+2012/07/17 18:13:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:13:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home/index
+---
+2012/07/17 18:13:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/page?view=about
+---
+2012/07/17 18:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home
+---
+2012/07/17 18:13:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/contact
+---
+2012/07/17 18:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:13:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home/index
+---
+2012/07/17 18:13:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/page?view=about
+---
+2012/07/17 18:13:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home/index
+---
+2012/07/17 18:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home
+---
+2012/07/17 18:14:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/page?view=about
+---
+2012/07/17 18:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home/index
+---
+2012/07/17 18:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/page?view=about
+---
+2012/07/17 18:14:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/contact
+---
+2012/07/17 18:14:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/page?view=about
+---
+2012/07/17 18:14:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home/index
+---
+2012/07/17 18:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/page?view=about
+---
+2012/07/17 18:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/contact
+---
+2012/07/17 18:14:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/page?view=about
+---
+2012/07/17 18:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home/index
+---
+2012/07/17 18:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/contact
+---
+2012/07/17 18:14:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home/index
+---
+2012/07/17 18:14:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/page?view=about
+---
+2012/07/17 18:14:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/contact
+---
+2012/07/17 18:14:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/site/page?view=about
+---
+2012/07/17 18:14:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home/index
+---
+2012/07/17 18:14:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/post/14?title=code
+---
+2012/07/17 18:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/07/17 18:14:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/shCore.js".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('css/shCore.js')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/shCore.js
+HTTP_REFERER=http://dlf5.com/index.php/home/index
+---
+2012/07/17 18:14:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

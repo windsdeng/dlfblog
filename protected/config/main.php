@@ -41,14 +41,14 @@ return array(
 		),
             
 		// uncomment the following to enable URLs in path-format
-		'urlManager'=>array(
+		/**'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-		),
+		),**/
             
 		// uncomment the following to use a MySQL database
 		'db'=>require(dirname(__FILE__).'/dlfdb.php'),
