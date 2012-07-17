@@ -1,3 +1,17 @@
+<?php
+    $this->widget('ext.ueditor.Ueditor',
+            array(
+                'getId'=>'Post_content',
+                'UEDITOR_HOME_URL'=>"/",
+                'options'=>'toolbars:[["fontfamily","fontsize","forecolor","bold","italic","strikethrough","|","insertunorderedlist","insertorderedlist","blockquote","|","link","unlink","highlightcode","|","undo","redo","source"]],
+                 	autoClearinitialContent:true,
+                 	wordCount:false,
+                 	elementPathEnabled:false,
+                 	imagePath:"/attachment/ueditor/",
+                 	',
+            ));
+?>
+
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm'); ?>
@@ -11,11 +25,16 @@
 		<?php echo $form->textField($model,'title',array('size'=>80,'maxlength'=>128,'style'=>'width: 630px;padding: 5px;')); ?>
 		<?php echo $form->error($model,'title'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'summary'); ?>
+		<?php echo CHtml::activeTextArea($model,'summary',array('rows'=>5,'cols'=>89,'style'=>'width: 630px;padding: 5px;')); ?>
+		<?php echo $form->error($model,'summary'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'content'); ?>
 		<?php echo CHtml::activeTextArea($model,'content',array('rows'=>10, 'cols'=>89)); ?>
-		<p class="hint">You may use Markdown syntax.</p>
 		<?php echo $form->error($model,'content'); ?>
 	</div>
 	<div class="row">
