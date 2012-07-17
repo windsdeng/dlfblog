@@ -11,17 +11,6 @@ $this->layout='column2';
 )); ?>
 
 <div id="comments">
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-2584272689913259";
-/* 文章评论468&#42;15 */
-google_ad_slot = "2114624056";
-google_ad_width = 468;
-google_ad_height = 15;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
 	<?php if($model->commentCount>=1): ?>
 		<h3>
 			<?php echo $model->commentCount>1 ? $model->commentCount . ' comments' : 'One comment'; ?>

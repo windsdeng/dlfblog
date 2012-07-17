@@ -40,13 +40,12 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, nickname, password, avatar, salt, email', 'required'),
+			array('username, nickname, password, salt, email, counts', 'required'),
 			array('username, password, avatar, salt, email', 'length', 'max'=>128),
 			array('nickname', 'length', 'max'=>32),
 			array('profile', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, username, nickname, password, avatar, salt, email, profile', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -58,6 +57,7 @@ class User extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'posts' => array(self::HAS_MANY, 'Post', 'author_id'),
 		);
 	}
 
@@ -75,31 +75,60 @@ class User extends CActiveRecord
 			'salt' => 'Salt',
 			'email' => 'Email',
 			'profile' => 'Profile',
+			'counts' => 'Counts',
 		);
 	}
 
 	/**
-	 * Retrieves a list of models based on the current search/filter conditions.
-	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
+	 * Checks if the given password is correct.
+	 * @param string the password to be validated
+	 * @return boolean whether the password is valid
 	 */
-	public function search()
+	public function validatePassword($password)
 	{
-		// Warning: Please modify the following code to remove attributes that
-		// should not be searched.
-
-		$criteria=new CDbCriteria;
-
-		$criteria->compare('id',$this->id,true);
-		$criteria->compare('username',$this->username,true);
-		$criteria->compare('nickname',$this->nickname,true);
-		$criteria->compare('password',$this->password,true);
-		$criteria->compare('avatar',$this->avatar,true);
-		$criteria->compare('salt',$this->salt,true);
-		$criteria->compare('email',$this->email,true);
-		$criteria->compare('profile',$this->profile,true);
-
-		return new CActiveDataProvider($this, array(
-			'criteria'=>$criteria,
-		));
+		return $this->hashPassword($password,$this->salt)===$this->password;
 	}
+
+	/**
+	 * Generates the password hash.
+	 * @param string password
+	 * @param string salt
+	 * @return string hash
+	 */
+	public function hashPassword($password,$salt)
+	{
+		return md5($salt.$password);
+	}
+
+	/**
+	 * Generates a salt that can be used to generate a password hash.
+	 * @return string the salt
+	 */
+	protected function generateSalt()
+	{
+		return uniqid('',true);
+	}
+	
+		/**
+	 * This is invoked before the record is saved.
+	 * @return boolean whether the record should be saved.
+	 */
+	protected function beforeSave()
+	{
+		if(parent::beforeSave())
+		{
+			if($this->isNewRecord)
+			{
+				$this->created=$this->updated=time();
+				$this->salt = $this->generateSalt();
+			}
+			else
+				$this->updated=time();
+			return true;
+		}
+		else
+			return false;
+	}
+	
+	
 }

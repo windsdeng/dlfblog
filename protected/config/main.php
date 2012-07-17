@@ -6,7 +6,7 @@
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 return array(
-        'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+    'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
 	'defaultController'=>'home',
 	// preloading 'log' component
@@ -41,14 +41,14 @@ return array(
 		),
             
 		// uncomment the following to enable URLs in path-format
-	/*	'urlManager'=>array(
+		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-		),*/
+		),
             
 		// uncomment the following to use a MySQL database
 		'db'=>require(dirname(__FILE__).'/dlfdb.php'),

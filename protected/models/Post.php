@@ -15,6 +15,7 @@ class Post extends CActiveRecord
 	 * @property string $created
 	 * @property string $updated
 	 * @property string $author_id
+	 * @property string $category_id
 	 */
 	
 	const STATUS_DRAFT=1;
@@ -48,7 +49,7 @@ class Post extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, content, summary, status, author_id', 'required'),
+			array('title, content, summary, status', 'required'),
 			array('title', 'length', 'max'=>128),
 			array('summary', 'length', 'max'=>255),
 			array('status, created, updated, author_id, category_id', 'length', 'max'=>11),
@@ -95,7 +96,7 @@ class Post extends CActiveRecord
 	public function findEditorsPicks($limit=10)
 	{
 		return $this->findAll(array(
-		//'condition'=>'t.status='.self::STATUS_DRAFT,
+		'condition'=>'t.status='.self::STATUS_PUBLISHED,
 				'order'=>'t.created DESC',
 				'limit'=>$limit,
 		));

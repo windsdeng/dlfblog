@@ -7,30 +7,10 @@
 				
 			)); ?>
 			<div class="left-ad">
-				<script type="text/javascript"><!--
-				google_ad_client = "ca-pub-2584272689913259";
-				/* 博客首页左边160&#42;600 */
-				google_ad_slot = "7263844814";
-				google_ad_width = 160;
-				google_ad_height = 600;
-				//-->
-				</script>
-				<script type="text/javascript"
-				src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-				</script>
+				ads
 			</div>
 			<div class="left-ad">
-			<script type="text/javascript"><!--
-			google_ad_client = "ca-pub-2584272689913259";
-			/* 博客首页左边160&#42;90 */
-			google_ad_slot = "2523534211";
-			google_ad_width = 160;
-			google_ad_height = 90;
-			//-->
-			</script>
-			<script type="text/javascript"
-			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-			</script>
+			ads
 			</div>
 		</div><!-- content -->
 	</div>
@@ -56,17 +36,7 @@
 		
 		<h2>About this blog</h2>
 		<div class="right-ad">
-			<script type="text/javascript"><!--
-			google_ad_client = "ca-pub-2584272689913259";
-			/* 博客右边 */
-			google_ad_slot = "2558217315";
-			google_ad_width = 336;
-			google_ad_height = 280;
-			//-->
-			</script>
-			<script type="text/javascript"
-			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-			</script>
+			ads
 		</div>
 			<?php $this->widget('UserMenu'); ?>
 

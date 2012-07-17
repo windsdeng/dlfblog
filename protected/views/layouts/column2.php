@@ -8,17 +8,7 @@
 	<div class="promo-content">
 		<div id="sidebar">
 			<div class="right-ad">
-			<script type="text/javascript"><!--
-			google_ad_client = "ca-pub-2584272689913259";
-			/* 博客标签页面右边 */
-			google_ad_slot = "7520467082";
-			google_ad_width = 336;
-			google_ad_height = 280;
-			//-->
-			</script>
-			<script type="text/javascript"
-			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-			</script>
+			ads
 			</div>
 			<?php $this->widget('UserMenu'); ?>
 

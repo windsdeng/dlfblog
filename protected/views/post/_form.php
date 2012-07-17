@@ -4,7 +4,6 @@
                 'getId'=>'Post_content',
                 'UEDITOR_HOME_URL'=>"/",
                 'options'=>'toolbars:[["fontfamily","fontsize","forecolor","bold","italic","strikethrough","|","insertunorderedlist","insertorderedlist","blockquote","|","link","unlink","highlightcode","|","undo","redo","source"]],
-                 	autoClearinitialContent:true,
                  	wordCount:false,
                  	elementPathEnabled:false,
                  	imagePath:"/attachment/ueditor/",
@@ -27,6 +26,12 @@
 	</div>
 	
 	<div class="row">
+		<?php echo $form->labelEx($model,'category_id'); ?>
+		<?php echo $form->dropDownList($model,'category_id',Category::CategoryList()); ?>
+		<?php echo $form->error($model,'category_id'); ?>
+	</div>
+	
+	<div class="row">
 		<?php echo $form->labelEx($model,'summary'); ?>
 		<?php echo CHtml::activeTextArea($model,'summary',array('rows'=>5,'cols'=>89,'style'=>'width: 630px;padding: 5px;')); ?>
 		<?php echo $form->error($model,'summary'); ?>
@@ -37,19 +42,7 @@
 		<?php echo CHtml::activeTextArea($model,'content',array('rows'=>10, 'cols'=>89)); ?>
 		<?php echo $form->error($model,'content'); ?>
 	</div>
-	<div class="row">
-		<script type="text/javascript"><!--
-		google_ad_client = "ca-pub-2584272689913259";
-		/* 创建文章标签 */
-		google_ad_slot = "8037556905";
-		google_ad_width = 468;
-		google_ad_height = 15;
-		//-->
-		</script>
-		<script type="text/javascript"
-		src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-		</script>
-	</div>
+
 	<div class="row">
 		<?php echo $form->labelEx($model,'tags'); ?>
 		<?php $this->widget('CAutoComplete', array(

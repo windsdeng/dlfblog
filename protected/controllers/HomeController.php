@@ -48,7 +48,7 @@ class HomeController extends Controller
 	{
 		$criteria=new CDbCriteria(array(
 			'condition'=>'status='.Post::STATUS_PUBLISHED,
-			'order'=>'updated DESC',
+			'order'=>'t.created DESC',
 			'with'=>'commentCount',
 		));
 		if(isset($_GET['tag']))

@@ -13,13 +13,13 @@
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
-
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	<?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
-	<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-	  {lang: 'zh-CN'}
-	</script>
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/shCoreDefault.css" />
+	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/css/shCore.js"></script>
+	<script type="text/javascript"> SyntaxHighlighter.all()</script>
+	
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 <body>
@@ -31,17 +31,7 @@
 	<div id="header">
             <div id="logo"><a href="<?php echo Yii::app()->createUrl('home') ?>" title="<?php echo CHtml::encode($this->settings->site_name); ?>"></a></div>
 		<div id="top-ad">
-			<script type="text/javascript"><!--
-			google_ad_client = "ca-pub-2584272689913259";
-			/* 博客顶部728&#42;90 */
-			google_ad_slot = "2767925194";
-			google_ad_width = 728;
-			google_ad_height = 90;
-			//-->
-			</script>
-			<script type="text/javascript"
-			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-			</script>
+			ads
 		</div>
 		<div class="clear"></div>
 	</div><!-- header -->

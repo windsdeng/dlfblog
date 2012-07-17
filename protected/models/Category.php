@@ -92,4 +92,12 @@ class Category extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	
+	public static function CategoryList()
+	{
+		$category = Category::model()->findAll(array(
+				'select'=>'id,name',
+		));
+		return CHtml::listData($category, 'id', 'name');
+	}
 }
