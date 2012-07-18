@@ -17,6 +17,10 @@ Have a bug? Please create an issue here on GitHub! Also, when filing please make
 
 https://github.com/windsdeng/dlfblog/issues
 
+DLFBLOG DEMO 
+-----------
+http://demo.dlf5.net
+
 QQ交流群
 ```
 1、185207750
