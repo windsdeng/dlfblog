@@ -7,16 +7,6 @@ body
 	background: #ffffff;
 }
 
-pre,code
-{
-	white-space: pre-wrap;       
-	white-space: -moz-pre-wrap;  
-	white-space: -pre-wrap;      
-	white-space: -o-pre-wrap;    
-	word-wrap: break-word; 
-	background: #eee;      
-}
-
 div.clear {clear:both;}
 
 #page
@@ -48,6 +38,7 @@ h1,h2,h3{
 #content
 {
     padding: 20px 0;
+    word-break: break-all;
 }
 
 #sidebar
@@ -120,7 +111,7 @@ h1,h2,h3{
 {
 	color:#ffffff;
 	background-color:transparent;
-	font-size:1.143em;;
+	font-size:1.143em;
 	font-weight:bold;
 	text-decoration:none;
 	display: block;

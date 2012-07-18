@@ -18,6 +18,7 @@
 		<div id="content">
 			<?php echo $content; ?>
 		</div><!-- content -->
+		
 	</div>
 	<div class="promo-content">
 		<div id="sidebar">

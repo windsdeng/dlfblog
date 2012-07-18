@@ -1,6 +1,6 @@
 <div class="post">
 	<div class="title">
-		<h2><?php echo CHtml::link(CHtml::encode($data->title), $data->url); ?><span><g:plusone count="false"  href="$data->url"></g:plusone></span></h2>
+		<h2><?php echo CHtml::link(CHtml::encode($data->title), $data->url); ?></h2>
 	</div>
 	<div class="author">
 		posted by <?php echo $data->author->username . ' on ' . date('F j, Y',$data->created); ?>

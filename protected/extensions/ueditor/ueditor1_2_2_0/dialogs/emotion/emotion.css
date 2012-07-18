@@ -41,7 +41,7 @@ body{
 }
 #tabContent {
     float:left;
-    background:#FFFFFF;<!--EAEAD1-->
+    background:#FFFFFF;
 }
 #tabContent div{
     display: none;
