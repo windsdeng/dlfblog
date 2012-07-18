@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	<?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/shCoreDefault.css" />
-	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/css/shCore.js"></script>
+	<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/shCore.js"></script>
 	<script type="text/javascript"> SyntaxHighlighter.all()</script>
 	
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
