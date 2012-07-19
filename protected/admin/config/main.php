@@ -10,14 +10,14 @@ $backend=dirname(dirname(__FILE__));
 $frontend=dirname($backend);
 Yii::setPathOfAlias('backend', $backend);
 
-$frontendArray=require($frontend.'/config/main.php');
+//$frontendArray=require($frontend.'/config/main.php');
 
 return array(
     'basePath'=>$frontend,
     'controllerPath' => $backend.'/controllers',
     'viewPath' => $backend.'/views',
     'runtimePath' => $backend.'/runtime',
-	'name'=>'My Web Application',
+	'name'=>'DLFBLOG BACKEND',
 	'defaultController'=>'home',
 	// preloading 'log' component
         'preload'=>array('log'),

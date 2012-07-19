@@ -46,7 +46,14 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php $this->widget('zii.widgets.jui.CJuiButton', array(
+			     	'name'=>'submit',
+			  		'caption'=>$model->isNewRecord ? 'Create' : 'Save',
+			  		'options'=>array(
+			          	'onclick'=>'js:function(){alert("Yes");}',
+		  		),
+		  ));
+		?>
 	</div>
 
 <?php $this->endWidget(); ?>

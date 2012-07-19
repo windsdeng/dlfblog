@@ -1,9 +1,24 @@
 <div class="form">
+<?php  $this->widget('ext.ueditor.Ueditor',
+            array(
+                'getId'=>'Post_content',
+                'UEDITOR_HOME_URL'=>"/",
+                'options'=>'toolbars:[["fontfamily","fontsize","forecolor","bold","italic","strikethrough","|","insertunorderedlist","insertorderedlist","blockquote","|","link","unlink","highlightcode","|","undo","redo","source"]],
+                 	wordCount:false,
+                 	elementPathEnabled:false,
+                 	imagePath:"/attachment/ueditor/",
+                 	initialContent:"",
+                 	',
+)); ?>
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'post-form',
 	'enableAjaxValidation'=>false,
 )); ?>
+
+<?php  
+
+?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
@@ -11,8 +26,20 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'title'); ?>
-		<?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>128)); ?>
+		<?php echo $form->textField($model,'title',array('size'=>80,'maxlength'=>128,'style'=>'width: 630px;padding: 5px;')); ?>
 		<?php echo $form->error($model,'title'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'category_id'); ?>
+		<?php echo $form->dropDownList($model,'category_id',Category::CategoryList()); ?>
+		<?php echo $form->error($model,'category_id'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'summary'); ?>
+		<?php echo CHtml::activeTextArea($model,'summary',array('rows'=>5,'cols'=>89,'style'=>'width: 630px;padding: 5px;')); ?>
+		<?php echo $form->error($model,'summary'); ?>
 	</div>
 
 	<div class="row">
@@ -22,49 +49,33 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'summary'); ?>
-		<?php echo $form->textField($model,'summary',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'summary'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'tags'); ?>
-		<?php echo $form->textArea($model,'tags',array('rows'=>6, 'cols'=>50)); ?>
+		<?php $this->widget('CAutoComplete', array(
+			'model'=>$model,
+			'attribute'=>'tags',
+			'url'=>array('suggestTags'),
+			'multiple'=>true,
+			'htmlOptions'=>array('size'=>50),
+		)); ?>
+		<p class="hint">Please separate different tags with commas.</p>
 		<?php echo $form->error($model,'tags'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'status'); ?>
-		<?php echo $form->textField($model,'status',array('size'=>11,'maxlength'=>11)); ?>
+		<?php echo $form->dropDownList($model,'status',Lookup::items('PostStatus')); ?>
 		<?php echo $form->error($model,'status'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'created'); ?>
-		<?php echo $form->textField($model,'created',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'created'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'updated'); ?>
-		<?php echo $form->textField($model,'updated',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'updated'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'author_id'); ?>
-		<?php echo $form->textField($model,'author_id',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'author_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'category_id'); ?>
-		<?php echo $form->textField($model,'category_id',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'category_id'); ?>
-	</div>
-
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php $this->widget('zii.widgets.jui.CJuiButton', array(
+			     	'name'=>'submit',
+			  		'caption'=>$model->isNewRecord ? 'Create' : 'Save',
+			  		'options'=>array(
+			          	'onclick'=>'js:function(){alert("Yes");}',
+		  		),
+		  ));
+		?>
 	</div>
 
 <?php $this->endWidget(); ?>

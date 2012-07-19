@@ -1,6 +1,6 @@
 <?php
 
-class PostController extends Controller
+class OptionsController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -27,7 +27,7 @@ class PostController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','SuggestTags'),
+				'actions'=>array('index','view'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -61,14 +61,14 @@ class PostController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Post;
+		$model=new Options;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Post']))
+		if(isset($_POST['Options']))
 		{
-			$model->attributes=$_POST['Post'];
+			$model->attributes=$_POST['Options'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -90,9 +90,9 @@ class PostController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Post']))
+		if(isset($_POST['Options']))
 		{
-			$model->attributes=$_POST['Post'];
+			$model->attributes=$_POST['Options'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -127,7 +127,7 @@ class PostController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Post');
+		$dataProvider=new CActiveDataProvider('Options');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -138,30 +138,15 @@ class PostController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Post('search');
+		$model=new Options('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Post']))
-			$model->attributes=$_GET['Post'];
+		if(isset($_GET['Options']))
+			$model->attributes=$_GET['Options'];
 
 		$this->render('admin',array(
 			'model'=>$model,
 		));
 	}
-	
-	/**
-	 * Suggests tags based on the current user input.
-	 * This is called via AJAX when the user is entering the tags input.
-	 */
-	public function actionSuggestTags()
-	{
-		if(isset($_GET['q']) && ($keyword=trim($_GET['q']))!=='')
-		{
-			$tags=Tag::model()->suggestTags($keyword);
-			if($tags!==array())
-				echo implode("\n",$tags);
-		}
-	}
-	
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
@@ -170,7 +155,7 @@ class PostController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Post::model()->findByPk($id);
+		$model=Options::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -182,7 +167,7 @@ class PostController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='post-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='options-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

@@ -1332,3 +1332,706 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/dlfblog/dlf-admin.php
 ---
+2012/07/19 11:01:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 11:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 11:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=post/suggestTags&q=a&limit=10&timestamp=1342696414056
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=post/create
+---
+2012/07/19 11:13:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=post/suggestTags&q=a&limit=10&timestamp=1342696419123
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=post/create
+---
+2012/07/19 11:13:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=post/suggestTags&q=t&limit=10&timestamp=1342696419680
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=post/create
+---
+2012/07/19 11:14:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=post/suggestTags&q=a&limit=10&timestamp=1342696473063
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=post/create
+---
+2012/07/19 11:19:54 [error] [exception.CException] exception 'CException' with message 'PostController cannot find the requested view "_partial".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:879
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\protected\admin\views\post\_form.php(24): CController->renderPartial('_partial', NULL, true)
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#4 D:\phpnow\htdocs\dlfblog\protected\admin\views\post\update.php(18): CController->renderPartial('_form', Array)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#9 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\PostController.php(102): CController->render('update', Array)
+#10 [internal function]: PostController->actionUpdate('1')
+#11 D:\phpnow\htdocs\dlfblog\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#12 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#13 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#18 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#20 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('update')
+#22 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/update')
+#23 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=post/update&id=1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=post/view&id=1
+---
+2012/07/19 11:43:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=user/admin
+---
+2012/07/19 11:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=settings/update/id/1
+---
+2012/07/19 11:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=settings/update/id/1
+---
+2012/07/19 11:45:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=settings/update/id/1
+---
+2012/07/19 11:53:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=site/login
+---
+2012/07/19 11:53:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php
+---
+2012/07/19 12:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=setting
+---
+2012/07/19 12:05:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=setting
+---
+2012/07/19 12:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=user/admin
+---
+2012/07/19 12:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=user/admin
+---
+2012/07/19 12:05:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php
+---
+2012/07/19 12:05:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings
+---
+2012/07/19 12:09:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=setting
+---
+2012/07/19 12:13:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('setting')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=options/update&id=1
+---
+2012/07/19 12:13:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('setting')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=options/update&id=1
+---
+2012/07/19 12:14:48 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\edit.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(7): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionEdit()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/edit
+2012/07/19 12:14:50 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\edit.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(7): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionEdit()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/edit
+2012/07/19 12:16:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "edit".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('edit')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('edit')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('setting/edit')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/edit
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/create
+---
+2012/07/19 12:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "edit".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('edit')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('edit')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('setting/edit')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/edit
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=setting/edit
+---
+2012/07/19 12:16:50 [error] [php] Undefined variable: model (D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php:9)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:16:53 [error] [php] Undefined variable: model (D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php:9)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:16:54 [error] [php] Undefined variable: model (D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php:9)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:19:27 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:19:49 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:9)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:20:44 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:20:45 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:20:47 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:28:34 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:29:44 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:29:46 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:29:47 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:29:48 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:32:17 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:7)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:33:24 [error] [exception.CException] exception 'CException' with message 'Property "SettingForm.isNewRecord" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php(42): CComponent->__get('isNewRecord')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): CController->render('update', Array)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('update')
+#11 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('setting/update')
+#12 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+---
+2012/07/19 12:33:39 [error] [exception.CException] exception 'CException' with message 'SettingController contains improperly nested widget tags in its view "D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php". A CActiveForm widget does not have an endWidget() call.' in D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php:102
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): CController->render('update', Array)
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('update')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('setting/update')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+---
+2012/07/19 12:34:27 [error] [exception.CException] exception 'CException' with message 'SettingController contains improperly nested widget tags in its view "D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php". A CActiveForm widget does not have an endWidget() call.' in D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php:102
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): CController->render('update', Array)
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('update')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('setting/update')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+---
+2012/07/19 12:34:53 [error] [exception.CException] exception 'CException' with message 'SettingController contains improperly nested widget tags in its view "D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php". A CActiveForm widget does not have an endWidget() call.' in D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php:102
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('update', Array, true)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): CController->render('update', Array)
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('update')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('setting/update')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+---
+2012/07/19 12:37:02 [error] [php] Undefined variable: form (D:\phpnow\htdocs\dlfblog\protected\admin\views\setting\update.php:9)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): SettingController->renderFile()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): SettingController->renderPartial()
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(11): SettingController->render()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:55:33 [error] [exception.CException] exception 'CException' with message 'Property "SettingForm.author" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(27): CComponent->__set('author', 'winds')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('update')
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('setting/update')
+#7 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+---
+2012/07/19 12:58:38 [error] [php] Undefined index:  SettingForm (D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php:11)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:58:46 [error] [php] Undefined index:  SettingForm (D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php:11)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 12:58:49 [error] [php] Undefined index:  SettingForm (D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php:11)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): SettingController->runAction()
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): SettingController->runActionWithFilters()
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): SettingController->run()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+2012/07/19 13:00:11 [error] [exception.CException] exception 'CException' with message 'Property "SettingForm.subject" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SettingController.php(18): CComponent->__get('subject')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SettingController->actionUpdate()
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('update')
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('setting/update')
+#7 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=setting/update
+---

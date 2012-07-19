@@ -7312,3 +7312,31 @@ Stack trace:
 #24 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #25 D:\phpnow\htdocs\dlfblog\index.php(13): CWebApplication->run()
 REQUEST_URI=/dlfblog/index.php?r=post/view&id=5&title=%E8%B0%B7%E6%AD%8C%E5%BC%80%E5%A7%8B%E5%88%A9%E7%94%A8Chrome%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8A%95%E6%94%BE%E5%9C%A8%E7%BA%BF%E5%B9%BF%E5%91%8A
+2012/07/19 11:57:53 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.copyright" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(34): CComponent->__set('copyright', 'windsdeng's blo...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('home/index')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=home/index
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=site/page&view=about
+---
+2012/07/19 11:58:18 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.copyright" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(34): CComponent->__set('copyright', 'windsdeng's blo...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('home/index')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=home/index
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=site/page&view=about
+---
+2012/07/19 12:00:15 [error] [php] Missing argument 1 for YiiBase::trace(), called in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php on line 34 and defined (D:\phpnow\htdocs\dlfblog\framework\YiiBase.php:440)
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\index.php(13): CWebApplication->run()
+REQUEST_URI=/dlfblog/index.php?r=home/index

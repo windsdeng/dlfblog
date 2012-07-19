@@ -29,7 +29,7 @@
 		<div class="user-bar right"><span><?php echo Yii::app()->user->username; ?></span>|<span><?php echo CHtml::link('我的帐户',array('user/view','id'=>Yii::app()->user->id)); ?></span>|<span><?php echo CHtml::link('退出',array('site/logout')); ?></span> </div>
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'网站设置', 'url'=>array('/settings/update/id/1')),
+				array('label'=>'网站设置', 'url'=>array('/setting/update')),
 				array('label'=>'用户管理', 'url'=>array('/user/admin')),
 				array('label'=>'分类管理', 'url'=>array('/category/admin')),
 				array('label'=>'文章管理', 'url'=>array('/post/admin')),
