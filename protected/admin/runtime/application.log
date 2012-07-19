@@ -66,3 +66,1269 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/dlfblog/dlf-admin.php
 ---
+2012/07/19 09:52:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:29 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:32 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:33 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:33 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:34 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:35 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:35 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:35 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:35 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:35 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:38 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:41 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:45 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:46 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:46 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:46 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:52:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:52:59 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:53:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:53:12 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:53:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:53:20 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 09:54:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dlfblog.{{options}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{options}}`.
+in D:\phpnow\htdocs\dlfblog\protected\models\Options.php (20)
+in D:\phpnow\htdocs\dlfblog\protected\components\Controller.php (31)
+in D:\phpnow\htdocs\dlfblog\dlf-admin.php (13)
+2012/07/19 09:54:00 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{options}}" for active record class "Options" cannot be found in the database.' in D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php:2264
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Options))
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Options.php(20): CActiveRecord::model('Options')
+#2 D:\phpnow\htdocs\dlfblog\protected\components\Controller.php(31): Options::model()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(275): Controller->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#5 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:04:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:04:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:04:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:04:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:04:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:05:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:05:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:08:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:12:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---
+2012/07/19 10:13:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gii".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('gii')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('gii')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('site/gii')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=site/gii
+---
+2012/07/19 10:16:33 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:879
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SiteController.php(87): CController->render('login', Array)
+#2 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('login')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('site/login')
+#8 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=site/login
+---
+2012/07/19 10:20:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('user/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=user/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=post/index
+---
+2012/07/19 10:20:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "category/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('category/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=category/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=user/admin
+---
+2012/07/19 10:20:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "products/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('products/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=products/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:21:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=products/admin
+---
+2012/07/19 10:21:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "products/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('products/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=products/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:21:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "category/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('category/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=category/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=user/admin
+---
+2012/07/19 10:21:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('user/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=user/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=post/index
+---
+2012/07/19 10:26:49 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=tag
+---
+2012/07/19 10:26:51 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=tag
+---
+2012/07/19 10:26:59 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=tag/create
+---
+2012/07/19 10:28:45 [error] [exception.CException] exception 'CException' with message 'Comment and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\comment\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\comment\admin.php(42): Comment->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\CommentController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): CommentController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('comment/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=comment/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=comment
+---
+2012/07/19 10:28:47 [error] [exception.CException] exception 'CException' with message 'Comment and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\comment\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\comment\admin.php(42): Comment->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\CommentController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): CommentController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('comment/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=comment/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=comment
+---
+2012/07/19 10:30:10 [error] [exception.CException] exception 'CException' with message 'Comment and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\comment\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\comment\admin.php(42): Comment->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\CommentController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): CommentController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('comment/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=comment/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=comment
+---
+2012/07/19 10:31:35 [error] [exception.CException] exception 'CException' with message 'Property "Comment.title" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(144): CComponent->__get('title')
+#1 D:\phpnow\htdocs\dlfblog\protected\models\Comment.php(97): CActiveRecord->__get('title')
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\comment\admin.php(42): Comment->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\CommentController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): CommentController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('comment/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=comment/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=comment
+---
+2012/07/19 10:33:14 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\user\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\user\admin.php(42): User->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\UserController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): UserController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('user/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=user/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:33:16 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\user\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\user\admin.php(42): User->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\UserController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): UserController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('user/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=user/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:33:16 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\user\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\user\admin.php(42): User->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\UserController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): UserController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('user/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=user/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:33:17 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\user\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\user\admin.php(42): User->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\UserController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): UserController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('user/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=user/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:33:17 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\user\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\user\admin.php(42): User->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\UserController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): UserController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('user/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=user/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:34:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "products/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('products/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=products/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:34:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "article/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('article/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=article/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=products/admin
+---
+2012/07/19 10:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "article/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('article/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=article/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=article/admin
+---
+2012/07/19 10:34:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feedback/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('feedback/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=feedback/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=link/admin
+---
+2012/07/19 10:34:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feedback/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('feedback/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=feedback/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=feedback/admin
+---
+2012/07/19 10:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feedback/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('feedback/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=feedback/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=link/admin
+---
+2012/07/19 10:34:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "article/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('article/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=article/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=link/admin
+---
+2012/07/19 10:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feedback/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('feedback/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=feedback/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=link/admin
+---
+2012/07/19 10:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feedback/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('feedback/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=feedback/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=feedback/admin
+---
+2012/07/19 10:34:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "products/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('products/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=products/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=feedback/admin
+---
+2012/07/19 10:34:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feedback/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('feedback/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=feedback/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=link/admin
+---
+2012/07/19 10:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pages/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('pages/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=pages/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=feedback/admin
+---
+2012/07/19 10:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "feedback/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('feedback/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=feedback/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:34:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=user/admin
+---
+2012/07/19 10:34:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php
+---
+2012/07/19 10:34:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=settings/update/id/1
+---
+2012/07/19 10:34:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=site/index
+---
+2012/07/19 10:34:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "banner/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('banner/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=banner/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=settings/update/id/1
+---
+2012/07/19 10:35:18 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+---
+2012/07/19 10:36:08 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+---
+2012/07/19 10:36:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=
+---
+2012/07/19 10:36:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pages/admin".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('pages/admin')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=pages/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=
+---
+2012/07/19 10:38:12 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:38:14 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:38:15 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:38:15 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:38:16 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:38:17 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:38:17 [error] [exception.CException] exception 'CException' with message 'Tag and its behaviors do not have a method or closure named "search".' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(226): CComponent->__call('search', Array)
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): CActiveRecord->__call('search', Array)
+#2 D:\phpnow\htdocs\dlfblog\protected\admin\views\tag\admin.php(42): Tag->search()
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('admin', Array, true)
+#7 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\TagController.php(148): CController->render('admin', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): TagController->actionAdmin()
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('admin')
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('tag/admin')
+#19 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=tag/admin
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=category/admin
+---
+2012/07/19 10:47:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=user/admin
+---
+2012/07/19 10:47:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings/update/id/1".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('settings/update...')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=settings/update/id/1
+HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=user/admin
+---
+2012/07/19 10:51:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php
+---

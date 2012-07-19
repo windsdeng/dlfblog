@@ -81,8 +81,36 @@ class Comment extends CActiveRecord
 			'post_id' => 'Post',
 		);
 	}
-
 	
+	/**
+	 * Retrieves a list of models based on the current search/filter conditions.
+	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
+	 */
+	public function search()
+	{
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
+
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('id',$this->id,true);
+		$criteria->compare('content',$this->content,true);
+		$criteria->compare('status',$this->status,true);
+		$criteria->compare('created',$this->created,true);
+		$criteria->compare('author',$this->author,true);
+		$criteria->compare('email',$this->email,true);
+		$criteria->compare('url',$this->url,true);
+		$criteria->compare('ip',$this->ip,true);
+		$criteria->compare('post_id',$this->post_id,true);
+
+		return new CActiveDataProvider($this, array(
+			'sort'=>array(
+	            'defaultOrder'=>'created DESC', //设置默认排序是created倒序
+	        ),
+			'criteria'=>$criteria,
+		));
+	}
+
 	/**
 	 * Approves a comment.
 	 */

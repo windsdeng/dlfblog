@@ -1,29 +1,34 @@
 <?php
 
-$backend=dirname(dirname(__FILE__));
-$frontend=dirname($backend);
-Yii::setPathOfAlias('backend', $backend);
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
-return array(
-        'basePath' => $frontend,
-        'controllerPath' => $backend.'/controllers',
-        'viewPath' => $backend.'/views',
-        'runtimePath' => $backend.'/runtime',
 
+$backend=dirname(dirname(__FILE__));
+$frontend=dirname($backend);
+Yii::setPathOfAlias('backend', $backend);
+
+$frontendArray=require($frontend.'/config/main.php');
+
+return array(
+    'basePath'=>$frontend,
+    'controllerPath' => $backend.'/controllers',
+    'viewPath' => $backend.'/views',
+    'runtimePath' => $backend.'/runtime',
 	'name'=>'My Web Application',
+	'defaultController'=>'home',
 	// preloading 'log' component
         'preload'=>array('log'),
 
 	// autoloading model and component classes
 	'import'=>array(
-                'backend.models.*',
-                'backend.components.*',
 		'application.models.*',
-		'application.components.*',
+        'application.components.*',
+        'application.extensions.*',
+        'backend.models.*',
+        'backend.components.*',
 	),
 
         'modules'=>array(
@@ -49,17 +54,17 @@ return array(
 		),
             
 		// uncomment the following to enable URLs in path-format
-		'urlManager'=>array(
+		/**'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-		),
+		),**/
             
 		// uncomment the following to use a MySQL database
-		'db'=>require(dirname(__FILE__).'/dlfdb.php'),
+		'db'=>require($frontend.'/config/dlfdb.php'),
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
@@ -82,7 +87,4 @@ return array(
 		),
 	),
 
-	// application-level parameters that can be accessed
-	// using Yii::app()->params['paramName']
-	'params'=>require(dirname(__FILE__).'/params.php'),
 );

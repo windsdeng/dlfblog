@@ -63,7 +63,29 @@ class Tag extends CActiveRecord
 			'frequency' => 'Frequency',
 		);
 	}
+	
+	/**
+	 * Retrieves a list of models based on the current search/filter conditions.
+	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
+	 */
+	public function search()
+	{
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
 
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('id',$this->id,true);
+		$criteria->compare('name',$this->name,true);
+		$criteria->compare('frequency',$this->frequency,true);
+		return new CActiveDataProvider($this, array(
+			'sort'=>array(
+	            'defaultOrder'=>'frequency DESC', //设置默认排序是created倒序
+	        ),
+			'criteria'=>$criteria,
+		));
+	}
+	
 	/**
 	 * Returns tag names and their corresponding weights.
 	 * Only the tags with the top weights will be returned.
