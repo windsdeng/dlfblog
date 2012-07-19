@@ -34,14 +34,24 @@ class Ipaddress extends CInputWidget
 	
 	public function getIpaddress($ip)
 	{
-		$snoopy = new Snoopy();                    // 实例化一个Snoopy对象 
-		$snoopy->fetch($this->sinaApi.trim($ip));
-		$data = json_decode($snoopy->results,true);
-		
-		if(!$data)
+		if(!extension_loaded('sockets'))
 		{
-			$snoopy->fetch($this->youdaoApi.trim($ip));
-			$data = $snoopy->results;
+			$sinadata = file_get_contents($this->sinaApi.trim($ip));
+			$data = json_decode($sinadata);
+			if($sinadata)
+			{
+				$data = file_get_contents($this->youdaoApi.trim($ip));
+			}
+		}else{
+			$snoopy = new Snoopy();                    // 实例化一个Snoopy对象 
+			$snoopy->fetch($this->sinaApi.trim($ip));
+			$data = json_decode($snoopy->results,true);
+			
+			if(!$data)
+			{
+				$snoopy->fetch($this->youdaoApi.trim($ip));
+				$data = $snoopy->results;
+			}
 		}
 		$newData=iconv("GB2312","UTF-8//IGNORE",$data);
 		print_r($newData);
