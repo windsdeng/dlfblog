@@ -34,7 +34,7 @@ class Ipaddress extends CInputWidget
 	
 	public function getIpaddress($ip)
 	{
-		if(!extension_loaded('sockets'))
+		if(!function_exists('fsockopen'))
 		{
 			$sinadata = file_get_contents($this->sinaApi.trim($ip));
 			$data = json_decode($sinadata);
