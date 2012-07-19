@@ -7,6 +7,7 @@
                  	wordCount:false,
                  	elementPathEnabled:false,
                  	imagePath:"/attachment/ueditor/",
+                 	initialContent:"",
                  	',
             ));
 ?>
