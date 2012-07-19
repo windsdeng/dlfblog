@@ -34,27 +34,34 @@ class Ipaddress extends CInputWidget
 	
 	public function getIpaddress($ip)
 	{
-		if(!function_exists('fsockopen'))
+		if($ip)
 		{
-			$sinadata = file_get_contents($this->sinaApi.trim($ip));
-			$data = json_decode($sinadata);
-			if($sinadata)
+			if(!function_exists('fsockopen'))
 			{
-				$data = file_get_contents($this->youdaoApi.trim($ip));
+				$sinadata = file_get_contents($this->sinaApi.trim($ip));
+				$data = json_decode($sinadata);
+				if($sinadata)
+				{
+					$data = file_get_contents($this->youdaoApi.trim($ip));
+				}
+			}else{
+				$snoopy = new Snoopy();                    // 实例化一个Snoopy对象 
+				$snoopy->fetch($this->sinaApi.trim($ip));
+				$data = json_decode($snoopy->results,true);
+				
+				if(!$data)
+				{
+					$snoopy->fetch($this->youdaoApi.trim($ip));
+					$data = $snoopy->results;
+				}
 			}
-		}else{
-			$snoopy = new Snoopy();                    // 实例化一个Snoopy对象 
-			$snoopy->fetch($this->sinaApi.trim($ip));
-			$data = json_decode($snoopy->results,true);
 			
-			if(!$data)
-			{
-				$snoopy->fetch($this->youdaoApi.trim($ip));
-				$data = $snoopy->results;
-			}
+			$newData=iconv("GB2312","UTF-8//IGNORE",$data);
+			echo $newData;
+		}else{
+			echo '匿名';
 		}
-		$newData=iconv("GB2312","UTF-8//IGNORE",$data);
-		print_r($newData);
+		
 	}
 	
 	
