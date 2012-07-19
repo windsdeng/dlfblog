@@ -47,9 +47,8 @@ class Comment extends CActiveRecord
 			array('content, status, author, email, post_id', 'required'),
 			array('status, created, post_id', 'length', 'max'=>11),
 			array('author, email, url, ip', 'length', 'max'=>128),
-			// The following rule is used by search().
-			// Please remove those attributes that should not be searched.
-			array('id, content, status, created, author, email, url, ip, post_id', 'safe', 'on'=>'search'),
+			array('email','email'),
+			array('url','url'),
 		);
 	}
 
@@ -83,31 +82,6 @@ class Comment extends CActiveRecord
 		);
 	}
 
-	/**
-	 * Retrieves a list of models based on the current search/filter conditions.
-	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
-	 */
-	public function search()
-	{
-		// Warning: Please modify the following code to remove attributes that
-		// should not be searched.
-
-		$criteria=new CDbCriteria;
-
-		$criteria->compare('id',$this->id,true);
-		$criteria->compare('content',$this->content,true);
-		$criteria->compare('status',$this->status,true);
-		$criteria->compare('created',$this->created,true);
-		$criteria->compare('author',$this->author,true);
-		$criteria->compare('email',$this->email,true);
-		$criteria->compare('url',$this->url,true);
-		$criteria->compare('ip',$this->ip,true);
-		$criteria->compare('post_id',$this->post_id,true);
-
-		return new CActiveDataProvider($this, array(
-			'criteria'=>$criteria,
-		));
-	}
 	
 	/**
 	 * Approves a comment.
@@ -172,6 +146,7 @@ class Comment extends CActiveRecord
 		{
 			if($this->isNewRecord)
 				$this->created=time();
+				$this->ip = Yii::app()->request->userHostAddress;  
 			return true;
 		}
 		else

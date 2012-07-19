@@ -6383,3 +6383,704 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2012/07/19 02:18:33 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\phpnow\htdocs\dlfblog\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php:116
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('D:\phpnow\htdoc...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 D:\phpnow\htdocs\dlfblog\framework\zii\widgets\CListView.php(179): CAssetManager->publish('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CListView->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 D:\phpnow\htdocs\dlfblog\protected\views\home\index.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#10 D:\phpnow\htdocs\dlfblog\protected\controllers\HomeController.php(66): CController->render('index', Array)
+#11 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/dlfblog/
+---
+2012/07/19 02:19:42 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\phpnow\htdocs\dlfblog\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php:116
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('D:\phpnow\htdoc...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 D:\phpnow\htdocs\dlfblog\framework\zii\widgets\CListView.php(179): CAssetManager->publish('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CListView->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 D:\phpnow\htdocs\dlfblog\protected\views\home\index.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#10 D:\phpnow\htdocs\dlfblog\protected\controllers\HomeController.php(66): CController->render('index', Array)
+#11 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/dlfblog/
+---
+2012/07/19 02:19:46 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\phpnow\htdocs\dlfblog\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php:116
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('D:\phpnow\htdoc...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 D:\phpnow\htdocs\dlfblog\framework\zii\widgets\CListView.php(179): CAssetManager->publish('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CListView->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 D:\phpnow\htdocs\dlfblog\protected\views\home\index.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#10 D:\phpnow\htdocs\dlfblog\protected\controllers\HomeController.php(66): CController->render('index', Array)
+#11 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/dlfblog/
+---
+2012/07/19 02:19:47 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\phpnow\htdocs\dlfblog\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php:116
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('D:\phpnow\htdoc...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 D:\phpnow\htdocs\dlfblog\framework\zii\widgets\CListView.php(179): CAssetManager->publish('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CListView->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 D:\phpnow\htdocs\dlfblog\protected\views\home\index.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#10 D:\phpnow\htdocs\dlfblog\protected\controllers\HomeController.php(66): CController->render('index', Array)
+#11 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/dlfblog/
+---
+2012/07/19 02:19:48 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\phpnow\htdocs\dlfblog\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php:116
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('D:\phpnow\htdoc...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 D:\phpnow\htdocs\dlfblog\framework\zii\widgets\CListView.php(179): CAssetManager->publish('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CListView->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 D:\phpnow\htdocs\dlfblog\protected\views\home\index.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#10 D:\phpnow\htdocs\dlfblog\protected\controllers\HomeController.php(66): CController->render('index', Array)
+#11 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/dlfblog/
+---
+2012/07/19 02:19:48 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\phpnow\htdocs\dlfblog\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php:116
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('D:\phpnow\htdoc...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 D:\phpnow\htdocs\dlfblog\framework\zii\widgets\CListView.php(179): CAssetManager->publish('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CListView->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 D:\phpnow\htdocs\dlfblog\protected\views\home\index.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#10 D:\phpnow\htdocs\dlfblog\protected\controllers\HomeController.php(66): CController->render('index', Array)
+#11 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/dlfblog/
+---
+2012/07/19 02:19:48 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\phpnow\htdocs\dlfblog\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php:116
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('D:\phpnow\htdoc...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 D:\phpnow\htdocs\dlfblog\framework\zii\widgets\CListView.php(179): CAssetManager->publish('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CListView->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 D:\phpnow\htdocs\dlfblog\protected\views\home\index.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#10 D:\phpnow\htdocs\dlfblog\protected\controllers\HomeController.php(66): CController->render('index', Array)
+#11 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/dlfblog/
+---
+2012/07/19 02:19:48 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\phpnow\htdocs\dlfblog\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php:116
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('D:\phpnow\htdoc...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 D:\phpnow\htdocs\dlfblog\framework\zii\widgets\CListView.php(179): CAssetManager->publish('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CListView->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 D:\phpnow\htdocs\dlfblog\protected\views\home\index.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#10 D:\phpnow\htdocs\dlfblog\protected\controllers\HomeController.php(66): CController->render('index', Array)
+#11 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/dlfblog/
+---
+2012/07/19 02:19:49 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\phpnow\htdocs\dlfblog\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php:116
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(101): CAssetManager->setBasePath('D:\phpnow\htdoc...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CAssetManager.php(219): CAssetManager->getBasePath()
+#2 D:\phpnow\htdocs\dlfblog\framework\zii\widgets\CListView.php(179): CAssetManager->publish('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CListView->init()
+#4 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#5 D:\phpnow\htdocs\dlfblog\protected\views\home\index.php(10): CBaseController->widget('zii.widgets.CLi...', Array)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#10 D:\phpnow\htdocs\dlfblog\protected\controllers\HomeController.php(66): CController->render('index', Array)
+#11 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('')
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#22 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/dlfblog/
+---
+2012/07/19 02:38:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.create_time' in 'order clause'. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`status` AS `t0_c2`, `t`.`created` AS `t0_c3`, `t`.`author` AS `t0_c4`, `t`.`email` AS `t0_c5`, `t`.`url` AS `t0_c6`, `t`.`ip` AS `t0_c7`, `t`.`post_id` AS `t0_c8`, `post`.`id` AS `t1_c0`, `post`.`title` AS `t1_c1`, `post`.`content` AS `t1_c2`, `post`.`summary` AS `t1_c3`, `post`.`tags` AS `t1_c4`, `post`.`status` AS `t1_c5`, `post`.`created` AS `t1_c6`, `post`.`updated` AS `t1_c7`, `post`.`author_id` AS `t1_c8`, `post`.`category_id` AS `t1_c9` FROM `dlf_comment` `t`  LEFT OUTER JOIN `dlf_post` `post` ON (`t`.`post_id`=`post`.`id`)  ORDER BY t.status, t.create_time DESC LIMIT 10.
+2012/07/19 02:38:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.create_time' in 'order clause'' in D:\phpnow\htdocs\dlfblog\framework\db\CDbCommand.php:528
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveFinder.php(818): CDbCommand->queryAll()
+#2 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveFinder.php(452): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveFinder.php(70): CJoinElement->find(Object(CDbCriteria))
+#4 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(1292): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(1406): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CActiveDataProvider.php(150): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CDataProvider.php(137): CActiveDataProvider->fetchData()
+#8 D:\phpnow\htdocs\dlfblog\framework\zii\widgets\CBaseListView.php(105): CDataProvider->getData()
+#9 D:\phpnow\htdocs\dlfblog\framework\zii\widgets\CListView.php(173): CBaseListView->init()
+#10 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CListView->init()
+#11 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#12 D:\phpnow\htdocs\dlfblog\protected\views\comment\index.php(12): CBaseController->widget('zii.widgets.CLi...', Array)
+#13 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#14 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#17 D:\phpnow\htdocs\dlfblog\protected\controllers\CommentController.php(95): CController->render('index', Array)
+#18 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): CommentController->actionIndex()
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#21 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#22 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#23 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#24 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#25 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#26 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('index')
+#28 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('comment/index')
+#29 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#30 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/dlfblog/index.php?r=comment/index
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=site/login
+---
+2012/07/19 02:52:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342666327618
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:52:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342666330259
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:52:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342666331815
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:52:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342666332012
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:53:40 [error] [exception.CException] exception 'CException' with message 'Property "Post.tag" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(144): CComponent->__get('tag')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\helpers\CHtml.php(2044): CActiveRecord->__get('tag')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(Post), 'tag')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\helpers\CHtml.php(1205): CHtml::activeInputField('text', Object(Post), 'tag', Array)
+#4 D:\phpnow\htdocs\dlfblog\framework\web\widgets\CAutoComplete.php(217): CHtml::activeTextField(Object(Post), 'tag', Array)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CAutoComplete->init()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('CAutoComplete', Array)
+#7 D:\phpnow\htdocs\dlfblog\protected\views\post\_form.php(54): CBaseController->widget('CAutoComplete', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#11 D:\phpnow\htdocs\dlfblog\protected\views\post\create.php(15): CController->renderPartial('_form', Array)
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#13 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#14 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#16 D:\phpnow\htdocs\dlfblog\protected\controllers\PostController.php(82): CController->render('create', Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#19 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#20 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#22 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#23 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#24 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#25 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('create')
+#27 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/create')
+#28 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#29 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/create
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/view&id=12&title=%E8%BF%99%E5%9C%A8%E6%B5%8B%E8%AF%95%E4%B8%AD
+---
+2012/07/19 02:53:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342666433145
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342666439537
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:53:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342666439728
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:54:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342666443032
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:54:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=u&limit=10&timestamp=1342666444876
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:54:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=u&limit=10&timestamp=1342666448612
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:54:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=u&limit=10&timestamp=1342666450737
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:54:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=u&limit=10&timestamp=1342666450965
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:54:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\phpnow\htdocs\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=s&limit=10&timestamp=1342666469624
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 02:54:59 [error] [exception.CException] exception 'CException' with message 'Property "Post.tag" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\db\ar\CActiveRecord.php(144): CComponent->__get('tag')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\helpers\CHtml.php(2044): CActiveRecord->__get('tag')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(Post), 'tag')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\helpers\CHtml.php(1205): CHtml::activeInputField('text', Object(Post), 'tag', Array)
+#4 D:\phpnow\htdocs\dlfblog\framework\web\widgets\CAutoComplete.php(217): CHtml::activeTextField(Object(Post), 'tag', Array)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(148): CAutoComplete->init()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('CAutoComplete', Array)
+#7 D:\phpnow\htdocs\dlfblog\protected\views\post\_form.php(54): CBaseController->widget('CAutoComplete', Array)
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#9 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#10 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#11 D:\phpnow\htdocs\dlfblog\protected\views\post\create.php(15): CController->renderPartial('_form', Array)
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#13 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#14 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#16 D:\phpnow\htdocs\dlfblog\protected\controllers\PostController.php(82): CController->render('create', Array)
+#17 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#19 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#20 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#21 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#22 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#23 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#24 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#25 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('create')
+#27 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/create')
+#28 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#29 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/create
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/view&id=12&title=%E8%BF%99%E5%9C%A8%E6%B5%8B%E8%AF%95%E4%B8%AD
+---
+2012/07/19 03:03:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342667035231
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 03:04:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342667062751
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 03:04:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=u&limit=10&timestamp=1342667063794
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 03:05:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=u&limit=10&timestamp=1342667100039
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 03:05:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=y&limit=10&timestamp=1342667103428
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 03:05:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=y&limit=10&timestamp=1342667104357
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 03:05:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342667104922
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 03:05:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342667119872
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 03:10:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342667410422
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 03:10:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=t&limit=10&timestamp=1342667411576
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---
+2012/07/19 03:10:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 D:\phpnow\htdocs\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\phpnow\htdocs\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#6 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#9 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\phpnow\htdocs\dlfblog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/dlfblog/index.php?r=post/suggestTags&q=q&limit=10&timestamp=1342667412017
+HTTP_REFERER=http://localhost/dlfblog/index.php?r=post/create
+---

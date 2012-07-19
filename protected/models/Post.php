@@ -219,6 +219,9 @@ class Post extends CActiveRecord
 		$criteria->compare('author_id',$this->author_id,true);
 
 		return new CActiveDataProvider($this, array(
+	        'sort'=>array(
+	            'defaultOrder'=>'created DESC', //设置默认排序是created倒序
+	        ),
 			'criteria'=>$criteria,
 		));
 	}

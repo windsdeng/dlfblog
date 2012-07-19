@@ -37,10 +37,7 @@ class Tag extends CActiveRecord
 		return array(
 			array('name', 'required'),
 			array('name', 'length', 'max'=>128),
-			array('frequency', 'length', 'max'=>11),
-			// The following rule is used by search().
-			// Please remove those attributes that should not be searched.
-			array('id, name, frequency', 'safe', 'on'=>'search'),
+			array('frequency', 'numerical', 'integerOnly'=>true),
 		);
 	}
 
