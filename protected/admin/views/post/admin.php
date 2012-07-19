@@ -5,8 +5,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Post', 'url'=>array('index')),
-	array('label'=>'Create Post', 'url'=>array('create')),
+	array('label'=>'List Post','url'=>array('index')),
+	array('label'=>'Create Post','url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -30,32 +30,36 @@ You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&g
 or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
 </p>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button btn')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
 )); ?>
 </div><!-- search-form -->
 
-<?php $this->widget('zii.widgets.grid.CGridView', array(
+<?php $this->widget('bootstrap.widgets.BootGridView',array(
 	'id'=>'post-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
 		'id',
-		'title',
-		//'content',
-		'summary',
-		'tags',
-		'status',
-		/*
-		'created',
-		'updated',
-		'author_id',
-		'category_id',
-		*/
 		array(
-			'class'=>'CButtonColumn',
+			'name'=>'title',
+			'type'=>'raw',
+			'value'=>'CHtml::link(CHtml::encode($data->title), $data->url)'
+		),
+		array(
+			'name'=>'status',
+			'value'=>'Lookup::item("PostStatus",$data->status)',
+			'filter'=>Lookup::items('PostStatus'),
+		),
+		array(
+			'name'=>'created',
+			'type'=>'datetime',
+			'filter'=>false,
+		),
+		array(
+			'class'=>'bootstrap.widgets.BootButtonColumn',
 		),
 	),
 )); ?>

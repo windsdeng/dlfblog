@@ -20,32 +20,49 @@
 <body>
 
 <div class="container" id="page">
-	<?php if(Yii::app()->user->isGuest):?>
-	<div id="header">
-		<div id="logo"><img src="/images/admin-logo.jpg" alt="<?php echo CHtml::encode(Yii::app()->name); ?>" /></div>
-	</div><!-- header -->
-	<?php else: ?>
+	
 	<div id="mainmenu">
-		<div class="user-bar right"><span><?php echo Yii::app()->user->username; ?></span>|<span><?php echo CHtml::link('我的帐户',array('user/view','id'=>Yii::app()->user->id)); ?></span>|<span><?php echo CHtml::link('退出',array('site/logout')); ?></span> </div>
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'网站设置', 'url'=>array('/setting/update')),
-				array('label'=>'用户管理', 'url'=>array('/user/admin')),
-				array('label'=>'分类管理', 'url'=>array('/category/admin')),
-				array('label'=>'文章管理', 'url'=>array('/post/admin')),
-				array('label'=>'标签管理', 'url'=>array('/tag/admin')),
-				array('label'=>'评论管理', 'url'=>array('/comment/admin')),
-				array('label'=>'友情链接', 'url'=>array('/link/admin')),
-				array('label'=>'附件管理', 'url'=>array('/attachment/admin')),
-			),
+		<?php $this->widget('bootstrap.widgets.BootNavbar', array(
+		    'fixed'=>false,
+		    'brand'=>Yii::app()->name,
+		    'brandUrl'=>'#',
+		    'collapse'=>true, // requires bootstrap-responsive.css
+		    'items'=>array(
+		        array(
+		            'class'=>'bootstrap.widgets.BootMenu',
+		            'items'=>array(
+		               array('label'=>'网站设置', 'url'=>array('/setting/update')),
+						array('label'=>'用户管理', 'url'=>array('/user/admin')),
+						array('label'=>'分类管理', 'url'=>array('/category/admin')),
+						array('label'=>'文章管理', 'url'=>array('/post/admin')),
+						array('label'=>'标签管理', 'url'=>array('/tag/admin')),
+						array('label'=>'评论管理', 'url'=>array('/comment/admin')),
+						array('label'=>'友情链接', 'url'=>array('/link/admin')),
+						array('label'=>'附件管理', 'url'=>array('/attachment/admin')),	
+					),
+				),
+		       
+		        array(
+		            'class'=>'bootstrap.widgets.BootMenu',
+		            'htmlOptions'=>array('class'=>'pull-right'),
+		            'items'=>array(
+		                array('label'=>Yii::app()->user->username, 'url'=>array('user/view','id'=>Yii::app()->user->id), 
+							'items'=>array(
+			                    array('label'=>'我的资料', 'url'=>'#'),
+			                    array('label'=>'修改密码', 'url'=>'#'),
+			                    '---',
+			                    array('label'=>'退出', 'url'=>array('site/logout')),
+		                )),
+		            ),
+		        ),
+		    ),
 		)); ?>
-		
-		<?php endif; ?>
 	</div><!-- mainmenu -->
 	<?php if(isset($this->breadcrumbs)):?>
-		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
-			'links'=>$this->breadcrumbs,
-		)); ?><!-- breadcrumbs -->
+		<?php $this->widget('bootstrap.widgets.BootBreadcrumbs', array(
+    			'links'=>$this->breadcrumbs,
+			)); 
+		?><!-- breadcrumbs -->
 	<?php endif?>
 
 	<?php echo $content; ?>

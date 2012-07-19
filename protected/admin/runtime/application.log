@@ -2035,3 +2035,168 @@ Stack trace:
 REQUEST_URI=/dlfblog/dlf-admin.php?r=setting/update
 HTTP_REFERER=http://localhost/dlfblog/dlf-admin.php?r=setting/update
 ---
+2012/07/19 14:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlf-admin.php
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=setting/update
+---
+2012/07/19 15:28:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\wwwroot\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlf-admin.php?r=post/suggestTags&q=s&limit=10&timestamp=1342711705319
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=post/create
+---
+2012/07/19 15:30:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\wwwroot\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlf-admin.php?r=post/suggestTags&q=a&limit=10&timestamp=1342711857882
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=post/create
+---
+2012/07/19 15:30:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\wwwroot\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlf-admin.php?r=post/suggestTags&q=a&limit=10&timestamp=1342711859738
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=post/create
+---
+2012/07/19 15:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\wwwroot\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlf-admin.php?r=post/suggestTags&q=t&limit=10&timestamp=1342711860440
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=post/create
+---
+2012/07/19 15:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\wwwroot\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlf-admin.php?r=post/suggestTags&q=td&limit=10&timestamp=1342711863451
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=post/create
+---
+2012/07/19 15:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\wwwroot\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlf-admin.php?r=post/suggestTags&q=td&limit=10&timestamp=1342711864091
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=post/create
+---
+2012/07/19 15:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\wwwroot\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlf-admin.php?r=post/suggestTags&q=t&limit=10&timestamp=1342711864808
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=post/create
+---
+2012/07/19 15:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\wwwroot\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlf-admin.php?r=post/suggestTags&q=tes&limit=10&timestamp=1342711865417
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=post/create
+---
+2012/07/19 15:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\wwwroot\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlf-admin.php?r=post/suggestTags&q=tes&limit=10&timestamp=1342711871446
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=post/create
+---
+2012/07/19 15:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "suggestTags".' in D:\wwwroot\dlfblog\framework\web\CController.php:484
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CController.php(271): CController->missingAction('suggestTags')
+#1 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('suggestTags')
+#2 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/suggestTag...')
+#3 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/dlf-admin.php?r=post/suggestTags&q=tes&limit=10&timestamp=1342711871618
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=post/create
+---
+2012/07/19 16:06:34 [error] [exception.CException] exception 'CException' with message 'Property "BootBreadcrumbs.Posts" is not defined.' in D:\wwwroot\dlfblog\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWidgetFactory.php(162): CComponent->__set('Posts', Array)
+#1 D:\wwwroot\dlfblog\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(PostController), 'bootstrap.widge...', Array)
+#2 D:\wwwroot\dlfblog\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 D:\wwwroot\dlfblog\protected\admin\views\post\create.php(9): CBaseController->widget('bootstrap.widge...', Array)
+#4 D:\wwwroot\dlfblog\framework\web\CBaseController.php(127): require('D:\wwwroot\dlfb...')
+#5 D:\wwwroot\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\wwwroot\dlfb...', Array, true)
+#6 D:\wwwroot\dlfblog\framework\web\CController.php(870): CBaseController->renderFile('D:\wwwroot\dlfb...', Array, true)
+#7 D:\wwwroot\dlfblog\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#8 D:\wwwroot\dlfblog\protected\admin\controllers\PostController.php(82): CController->render('create', Array)
+#9 D:\wwwroot\dlfblog\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#10 D:\wwwroot\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\wwwroot\dlfblog\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 D:\wwwroot\dlfblog\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 D:\wwwroot\dlfblog\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 D:\wwwroot\dlfblog\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 D:\wwwroot\dlfblog\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 D:\wwwroot\dlfblog\framework\web\CController.php(292): CFilterChain->run()
+#17 D:\wwwroot\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(276): CController->run('create')
+#19 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('post/create')
+#20 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/dlf-admin.php?r=post/create
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=post/index
+---
+2012/07/19 17:11:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlf-admin.php
+HTTP_REFERER=http://dlf5.com/dlf-admin.php?r=setting/update
+---
+2012/07/19 17:11:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home".' in D:\wwwroot\dlfblog\framework\web\CWebApplication.php:280
+Stack trace:
+#0 D:\wwwroot\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#1 D:\wwwroot\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 D:\wwwroot\dlfblog\dlf-admin.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/dlf-admin.php
+HTTP_REFERER=http://dlf5.com/dlf-admin.php
+---

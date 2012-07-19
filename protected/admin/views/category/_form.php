@@ -1,49 +1,26 @@
-<div class="form">
-
-<?php $form=$this->beginWidget('CActiveForm', array(
+<?php $form=$this->beginWidget('bootstrap.widgets.BootActiveForm',array(
 	'id'=>'category-form',
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="help-block">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'pid'); ?>
-		<?php echo $form->textField($model,'pid',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'pid'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'pid',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'name'); ?>
-		<?php echo $form->textField($model,'name',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'name'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'name',array('class'=>'span5','maxlength'=>255)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'alias'); ?>
-		<?php echo $form->textField($model,'alias',array('size'=>60,'maxlength'=>255)); ?>
-		<?php echo $form->error($model,'alias'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'alias',array('class'=>'span5','maxlength'=>255)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'position'); ?>
-		<?php echo $form->textField($model,'position',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'position'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'position',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row buttons">
-		<?php $this->widget('zii.widgets.jui.CJuiButton', array(
-			     	'name'=>'submit',
-			  		'caption'=>$model->isNewRecord ? 'Create' : 'Save',
-			  		'options'=>array(
-			          	'onclick'=>'js:function(){alert("Yes");}',
-		  		),
-		  ));
-		?>
+	<div class="form-actions">
+		<?php $this->widget('bootstrap.widgets.BootButton', array(
+			'buttonType'=>'submit',
+			'type'=>'primary',
+			'label'=>$model->isNewRecord ? 'Create' : 'Save',
+		)); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
-
-</div><!-- form -->

@@ -2,16 +2,10 @@
 <div class="container">
 		<div id="left-sidebar">
 			<div id="sidebar">
-			<?php
-				$this->beginWidget('zii.widgets.CPortlet', array(
-					'title'=>'Operations',
-				));
-				$this->widget('zii.widgets.CMenu', array(
-					'items'=>$this->menu,
-					'htmlOptions'=>array('class'=>'operations'),
-				));
-				$this->endWidget();
-			?>
+			<?php $this->widget('bootstrap.widgets.BootMenu', array(
+			    'type'=>'list',
+			    'items'=>$this->menu,
+			)); ?>
 			</div><!-- sidebar -->
 		</div>
 		<div id="main-content">

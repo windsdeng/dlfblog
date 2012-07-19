@@ -1,73 +1,34 @@
-<div class="form">
-
-<?php $form=$this->beginWidget('CActiveForm', array(
+<?php $form=$this->beginWidget('bootstrap.widgets.BootActiveForm',array(
 	'id'=>'comment-form',
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="help-block">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'content'); ?>
-		<?php echo $form->textArea($model,'content',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'content'); ?>
-	</div>
+	<?php echo $form->textAreaRow($model,'content',array('rows'=>6, 'cols'=>50, 'class'=>'span8')); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'status'); ?>
-		<?php echo $form->textField($model,'status',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'status'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'status',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'created'); ?>
-		<?php echo $form->textField($model,'created',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'created'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'created',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'author'); ?>
-		<?php echo $form->textField($model,'author',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'author'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'author',array('class'=>'span5','maxlength'=>128)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'email'); ?>
-		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'email'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'email',array('class'=>'span5','maxlength'=>128)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'url'); ?>
-		<?php echo $form->textField($model,'url',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'url'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'url',array('class'=>'span5','maxlength'=>128)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'ip'); ?>
-		<?php echo $form->textField($model,'ip',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'ip'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'ip',array('class'=>'span5','maxlength'=>128)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'post_id'); ?>
-		<?php echo $form->textField($model,'post_id',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'post_id'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'post_id',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row buttons">
-		<?php $this->widget('zii.widgets.jui.CJuiButton', array(
-			     	'name'=>'submit',
-			  		'caption'=>$model->isNewRecord ? 'Create' : 'Save',
-			  		'options'=>array(
-			          	'onclick'=>'js:function(){alert("Yes");}',
-		  		),
-		  ));
-		?>
+	<div class="form-actions">
+		<?php $this->widget('bootstrap.widgets.BootButton', array(
+			'buttonType'=>'submit',
+			'type'=>'primary',
+			'label'=>$model->isNewRecord ? 'Create' : 'Save',
+		)); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
-
-</div><!-- form -->

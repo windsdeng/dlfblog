@@ -20,8 +20,10 @@ return array(
 	'name'=>'DLFBLOG BACKEND',
 	'defaultController'=>'home',
 	// preloading 'log' component
-        'preload'=>array('log'),
-
+     'preload'=>array(
+			'log',
+			'bootstrap',
+	),
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
@@ -38,6 +40,9 @@ return array(
 			'password'=>'123456',
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
+			'generatorPaths'=>array(
+           	 	'bootstrap.gii', // since 0.9.1
+        	),
 		),
 
 	),
@@ -48,6 +53,11 @@ return array(
 			'newDirMode'=>0755,
 			'newFileMode'=>0644,	
 		),	
+		
+		'bootstrap'=>array(
+       		 'class'=>'ext.bootstrap.components.Bootstrap', // assuming you extracted bootstrap under extensions
+   		 ),
+   		 
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,

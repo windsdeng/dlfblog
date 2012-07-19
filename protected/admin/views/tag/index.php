@@ -4,14 +4,14 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Tag', 'url'=>array('create')),
-	array('label'=>'Manage Tag', 'url'=>array('admin')),
+	array('label'=>'Create Tag','url'=>array('create')),
+	array('label'=>'Manage Tag','url'=>array('admin')),
 );
 ?>
 
 <h1>Tags</h1>
 
-<?php $this->widget('zii.widgets.CListView', array(
+<?php $this->widget('bootstrap.widgets.BootListView',array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
 )); ?>

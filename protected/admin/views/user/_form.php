@@ -1,90 +1,38 @@
-<div class="form">
-
-<?php $form=$this->beginWidget('CActiveForm', array(
+<?php $form=$this->beginWidget('bootstrap.widgets.BootActiveForm',array(
 	'id'=>'user-form',
 	'enableAjaxValidation'=>false,
-)); 
+)); ?>
 
-
-
-
-?>
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="help-block">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'username'); ?>
-		<?php echo $form->textField($model,'username',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'username'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'username',array('class'=>'span5','maxlength'=>128)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'nickname'); ?>
-		<?php echo $form->textField($model,'nickname',array('size'=>32,'maxlength'=>32)); ?>
-		<?php echo $form->error($model,'nickname'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'nickname',array('class'=>'span5','maxlength'=>32)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'password'); ?>
-		<?php echo $form->passwordField($model,'password',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'password'); ?>
-	</div>
+	<?php echo $form->passwordFieldRow($model,'password',array('class'=>'span5','maxlength'=>128)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'avatar'); ?>
-		<?php echo $form->textField($model,'avatar',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'avatar'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'avatar',array('class'=>'span5','maxlength'=>128)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'salt'); ?>
-		<?php echo $form->textField($model,'salt',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'salt'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'salt',array('class'=>'span5','maxlength'=>128)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'email'); ?>
-		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>128)); ?>
-		<?php echo $form->error($model,'email'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'email',array('class'=>'span5','maxlength'=>128)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'profile'); ?>
-		<?php echo $form->textArea($model,'profile',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'profile'); ?>
-	</div>
+	<?php echo $form->textAreaRow($model,'profile',array('rows'=>6, 'cols'=>50, 'class'=>'span8')); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'counts'); ?>
-		<?php echo $form->textField($model,'counts',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'counts'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'counts',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'created'); ?>
-		<?php echo $form->textField($model,'created',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'created'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'created',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'updated'); ?>
-		<?php echo $form->textField($model,'updated',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'updated'); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'updated',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row buttons">
-		<?php $this->widget('zii.widgets.jui.CJuiButton', array(
-			     	'name'=>'submit',
-			  		'caption'=>$model->isNewRecord ? 'Create' : 'Save',
-			  		'options'=>array(
-			          	'onclick'=>'js:function(){alert("Yes");}',
-		  		),
-		  ));
-		?>
+	<div class="form-actions">
+		<?php $this->widget('bootstrap.widgets.BootButton', array(
+			'buttonType'=>'submit',
+			'type'=>'primary',
+			'label'=>$model->isNewRecord ? 'Create' : 'Save',
+		)); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
-
-</div><!-- form -->

@@ -5,8 +5,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Link', 'url'=>array('index')),
-	array('label'=>'Manage Link', 'url'=>array('admin')),
+	array('label'=>'List Link','url'=>array('index')),
+	array('label'=>'Manage Link','url'=>array('admin')),
 );
 ?>
 

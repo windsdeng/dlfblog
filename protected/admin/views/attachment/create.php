@@ -5,8 +5,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Attachment', 'url'=>array('index')),
-	array('label'=>'Manage Attachment', 'url'=>array('admin')),
+	array('label'=>'List Attachment','url'=>array('index')),
+	array('label'=>'Manage Attachment','url'=>array('admin')),
 );
 ?>
 

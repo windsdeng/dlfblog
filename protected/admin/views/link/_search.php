@@ -1,64 +1,33 @@
-<div class="wide form">
-
-<?php $form=$this->beginWidget('CActiveForm', array(
+<?php $form=$this->beginWidget('bootstrap.widgets.BootActiveForm',array(
 	'action'=>Yii::app()->createUrl($this->route),
 	'method'=>'get',
 )); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'id'); ?>
-		<?php echo $form->textField($model,'id',array('size'=>11,'maxlength'=>11)); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'id',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'sitename'); ?>
-		<?php echo $form->textField($model,'sitename',array('size'=>60,'maxlength'=>128)); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'sitename',array('class'=>'span5','maxlength'=>128)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'logo'); ?>
-		<?php echo $form->textField($model,'logo',array('size'=>60,'maxlength'=>128)); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'logo',array('class'=>'span5','maxlength'=>128)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'siteurl'); ?>
-		<?php echo $form->textField($model,'siteurl',array('size'=>60,'maxlength'=>255)); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'siteurl',array('class'=>'span5','maxlength'=>255)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'description'); ?>
-		<?php echo $form->textField($model,'description',array('size'=>60,'maxlength'=>255)); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'description',array('class'=>'span5','maxlength'=>255)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'target'); ?>
-		<?php echo $form->textField($model,'target',array('size'=>7,'maxlength'=>7)); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'target',array('class'=>'span5','maxlength'=>7)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'status'); ?>
-		<?php echo $form->textField($model,'status',array('size'=>11,'maxlength'=>11)); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'status',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'position'); ?>
-		<?php echo $form->textField($model,'position',array('size'=>11,'maxlength'=>11)); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'position',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'created'); ?>
-		<?php echo $form->textField($model,'created',array('size'=>11,'maxlength'=>11)); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'created',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row">
-		<?php echo $form->label($model,'updated'); ?>
-		<?php echo $form->textField($model,'updated',array('size'=>11,'maxlength'=>11)); ?>
-	</div>
+	<?php echo $form->textFieldRow($model,'updated',array('class'=>'span5','maxlength'=>11)); ?>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+	<div class="form-actions">
+		<?php $this->widget('bootstrap.widgets.BootButton', array(
+			'type'=>'primary',
+			'label'=>'Search',
+		)); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
-
-</div><!-- search-form -->
