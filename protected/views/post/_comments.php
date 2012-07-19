@@ -7,7 +7,13 @@
 	)); ?>
 
 	<div class="author">
-		<?php echo $comment->authorLink; ?> says:
+		<?php echo $comment->authorLink; ?> [
+		<?php $this->widget('ext.ipaddress.Ipaddress',
+            array(
+                'ip' => $comment->ip,
+            ));
+		?>
+		]says:
 	</div>
 
 	<div class="time">
@@ -20,3 +26,4 @@
 
 </div><!-- comment -->
 <?php endforeach; ?>
+
