@@ -3,11 +3,12 @@
             array(
                 'getId'=>'Post_content',
                 'UEDITOR_HOME_URL'=>"/",
-                'options'=>'toolbars:[["fontfamily","fontsize","forecolor","bold","italic","strikethrough","|","insertunorderedlist","insertorderedlist","blockquote","|","link","unlink","highlightcode","|","undo","redo","source"]],
+                'options'=>'
                  	wordCount:false,
                  	elementPathEnabled:false,
-                 	imagePath:"/attachment/ueditor/",
+                 	imagePath:"/attachment/",
                  	initialContent:"",
+                 	imageUrl:"../../php/imageUp.php",
                  	',
             ));
 ?>

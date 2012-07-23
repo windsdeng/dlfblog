@@ -2200,3 +2200,111 @@ Stack trace:
 REQUEST_URI=/dlf-admin.php
 HTTP_REFERER=http://dlf5.com/dlf-admin.php
 ---
+2012/07/20 09:40:47 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CWebUser.php(141): CComponent->__get('username')
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\layouts\main.php(49): CWebUser->__get('username')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#4 D:\phpnow\htdocs\dlfblog\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div class="con...')
+#6 D:\phpnow\htdocs\dlfblog\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\phpnow\htdocs\dlfblog\protected\admin\views\layouts\column1.php(7): CBaseController->endContent()
+#10 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#11 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(785): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#13 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SiteController.php(87): CController->render('login', Array)
+#14 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('login')
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('site/login')
+#20 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=site/login
+---
+2012/07/20 09:40:49 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CWebUser.php(141): CComponent->__get('username')
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\layouts\main.php(49): CWebUser->__get('username')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#4 D:\phpnow\htdocs\dlfblog\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div class="con...')
+#6 D:\phpnow\htdocs\dlfblog\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\phpnow\htdocs\dlfblog\protected\admin\views\layouts\column1.php(7): CBaseController->endContent()
+#10 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#11 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(785): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#13 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SiteController.php(87): CController->render('login', Array)
+#14 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('login')
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('site/login')
+#20 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=site/login
+---
+2012/07/20 09:41:10 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CWebUser.php(141): CComponent->__get('username')
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\layouts\main.php(49): CWebUser->__get('username')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#4 D:\phpnow\htdocs\dlfblog\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div class="con...')
+#6 D:\phpnow\htdocs\dlfblog\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\phpnow\htdocs\dlfblog\protected\admin\views\layouts\column1.php(7): CBaseController->endContent()
+#10 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#11 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(785): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#13 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SiteController.php(87): CController->render('login', Array)
+#14 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('login')
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('site/login')
+#20 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=site/login
+---
+2012/07/20 09:43:07 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in D:\phpnow\htdocs\dlfblog\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\phpnow\htdocs\dlfblog\framework\web\auth\CWebUser.php(141): CComponent->__get('username')
+#1 D:\phpnow\htdocs\dlfblog\protected\admin\views\layouts\main.php(49): CWebUser->__get('username')
+#2 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#3 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#4 D:\phpnow\htdocs\dlfblog\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#5 D:\phpnow\htdocs\dlfblog\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div class="con...')
+#6 D:\phpnow\htdocs\dlfblog\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#7 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\phpnow\htdocs\dlfblog\protected\admin\views\layouts\column1.php(7): CBaseController->endContent()
+#10 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(127): require('D:\phpnow\htdoc...')
+#11 D:\phpnow\htdocs\dlfblog\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\phpnow\htdoc...', Array, true)
+#12 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(785): CBaseController->renderFile('D:\phpnow\htdoc...', Array, true)
+#13 D:\phpnow\htdocs\dlfblog\protected\admin\controllers\SiteController.php(87): CController->render('login', Array)
+#14 D:\phpnow\htdocs\dlfblog\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#15 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\phpnow\htdocs\dlfblog\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(276): CController->run('login')
+#19 D:\phpnow\htdocs\dlfblog\framework\web\CWebApplication.php(135): CWebApplication->runController('site/login')
+#20 D:\phpnow\htdocs\dlfblog\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\phpnow\htdocs\dlfblog\dlf-admin.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/dlfblog/dlf-admin.php?r=site/login
+---
