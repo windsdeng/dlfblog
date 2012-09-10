@@ -52,14 +52,21 @@ return array(
 		),
             
 		// uncomment the following to enable URLs in path-format
-		/**'urlManager'=>array(
+		'urlManager'=>array(
 			'urlFormat'=>'path',
+            'showScriptName' => false,
 			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                '/'=>'home/index',
+				'<controller:\w+>-<id:\d+>-<title:.*?>'=>'<controller>/view',
+                'tags/<tag:.*?>'=>'post/index',
+                'date/<year:\d+>-<month:\d+>'=>'post/index',
+				'<controller:\w+>-<action:\w+>-<id:\d+>-<title:\d+>'=>'<controller>/<action>',
+				/**'contact'=>'site/contact',
+                '<view:.*?>'=>'site/page',*/
+                '<controller:\w+>-<action:\w+>'=>'<controller>/<action>',
+                
 			),
-		),**/
+		),
             
 		// uncomment the following to use a MySQL database
 		'db'=>require(dirname(__FILE__).'/dlfdb.php'),

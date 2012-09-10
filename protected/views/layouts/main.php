@@ -28,7 +28,7 @@
 		<h1>WindsDeng's Blog - <?php echo $this->settings->blogdescription ?></h1>
 	</div>-->
 	<div id="header">
-            <div id="logo"><a href="<?php echo Yii::app()->createUrl('home') ?>" title="<?php echo CHtml::encode($this->settings->site_name); ?>"></a></div>
+            <div id="logo"><a href="<?php echo Yii::app()->createUrl('home/index') ?>" title="<?php echo CHtml::encode($this->settings->site_name); ?>"></a></div>
 		<div id="top-ad">
 			ads
 		</div>

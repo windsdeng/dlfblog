@@ -18,7 +18,7 @@ return array(
     'viewPath' => $backend.'/views',
     'runtimePath' => $backend.'/runtime',
 	'name'=>'DLFBLOG BACKEND',
-	'defaultController'=>'home',
+	'defaultController'=>'setting/update',
 	// preloading 'log' component
      'preload'=>array(
 			'log',
@@ -64,14 +64,14 @@ return array(
 		),
             
 		// uncomment the following to enable URLs in path-format
-		/**'urlManager'=>array(
+		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
-		),**/
+		),
             
 		// uncomment the following to use a MySQL database
 		'db'=>require($frontend.'/config/dlfdb.php'),
