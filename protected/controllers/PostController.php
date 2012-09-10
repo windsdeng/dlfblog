@@ -135,14 +135,15 @@ class PostController extends Controller
 		$month = Yii::app()->request->getParam('month');
 		
 		$criteria = new CDbCriteria();
-		$criteria=array(
-		      'condition'=>'created > :time1 AND created < :time2
-		                    AND status=2',
+		if(!empty($month)){
+			$criteria=array(
+		      'condition'=>'created > :time1 AND created < :time2 AND status=2',
 		      'params'=>array(':time1' => mktime(0,0,0,$month,1,$year),
 		                      ':time2' => mktime(0,0,0,$month+1,1,$year),
 		                      ),
 		      'order'=>'created DESC',
           );
+		}
 		$dataProvider=new CActiveDataProvider('Post',array(
 			'criteria'=>$criteria,
 		));
