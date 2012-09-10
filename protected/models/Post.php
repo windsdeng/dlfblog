@@ -21,8 +21,12 @@ class Post extends CActiveRecord
 	const STATUS_DRAFT=1;
 	const STATUS_PUBLISHED=2;
 	const STATUS_ARCHIVED=3;
-	
-	private $_oldTags;
+    public $year;
+    public $month;
+    public $posts = 0;
+
+
+    private $_oldTags;
 	
 	/**
 	 * Returns the static model of the specified AR class.
@@ -96,9 +100,19 @@ class Post extends CActiveRecord
 	public function findEditorsPicks($limit=10)
 	{
 		return $this->findAll(array(
-		'condition'=>'t.status='.self::STATUS_PUBLISHED,
+                'condition'=>'t.status='.self::STATUS_PUBLISHED,
 				'order'=>'t.created DESC',
 				'limit'=>$limit,
+		));
+	}
+    
+    public function findArchives()
+	{
+		return $this->findAll(array(
+                'select'=>'YEAR(FROM_UNIXTIME(created)) AS `year`, MONTH(FROM_UNIXTIME(created)) AS `month`, count(id) as posts',
+                'condition'=>'t.status='.self::STATUS_PUBLISHED,
+                'group'=>'YEAR(FROM_UNIXTIME(created)), MONTH(FROM_UNIXTIME(created))',
+				'order'=>'t.created DESC',
 		));
 	}
 	
@@ -109,7 +123,7 @@ class Post extends CActiveRecord
 	{
 		return Yii::app()->createUrl('post/view', array(
 				'id'=>$this->id,
-				'title'=>$this->title,
+				'title'=>str_replace(' ','-',  trim($this->title)),
 		));
 	}
 	

@@ -131,7 +131,21 @@ class PostController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Post');
+		$year = Yii::app()->request->getParam('year');
+		$month = Yii::app()->request->getParam('month');
+		
+		$criteria = new CDbCriteria();
+		$criteria=array(
+		      'condition'=>'created > :time1 AND created < :time2
+		                    AND status=2',
+		      'params'=>array(':time1' => mktime(0,0,0,$month,1,$year),
+		                      ':time2' => mktime(0,0,0,$month+1,1,$year),
+		                      ),
+		      'order'=>'created DESC',
+          );
+		$dataProvider=new CActiveDataProvider('Post',array(
+			'criteria'=>$criteria,
+		));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));

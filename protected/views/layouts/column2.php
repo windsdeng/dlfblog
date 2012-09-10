@@ -19,6 +19,11 @@
 			<?php $this->widget('RecentComments', array(
 				'maxComments'=>Yii::app()->params['recentCommentCount'],
 			)); ?>
+            
+            <?php $this->widget('MonthlyArchives', array(
+                'year'=>'年',
+                'month'=>'月',
+			)); ?>
 		</div><!-- sidebar -->
 	</div>
 	<div class="clear"></div>
