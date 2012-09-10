@@ -6,7 +6,7 @@
                 'options'=>'toolbars:[["fontfamily","fontsize","forecolor","bold","italic","strikethrough","|","insertunorderedlist","insertorderedlist","blockquote","|","insertimage","link","unlink","highlightcode","|","undo","redo","source"]],
                  	wordCount:false,
                  	elementPathEnabled:false,
-                 	imagePath:"/attachment/ueditor/",
+                 	imagePath:"/attachment/",
                  	initialContent:"",
                  	imageUrl:"../../php/imageUp.php",
                  	',
