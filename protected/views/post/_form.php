@@ -8,6 +8,7 @@
                  	elementPathEnabled:false,
                  	imagePath:"/attachment/ueditor/",
                  	initialContent:"",
+                 	imageUrl:"../php/imageUp.php",
                  	',
             ));
 ?>
