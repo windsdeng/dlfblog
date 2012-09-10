@@ -221,7 +221,7 @@ class Post extends CActiveRecord
 		// should not be searched.
 
 		$criteria=new CDbCriteria;
-
+		
 		$criteria->compare('id',$this->id,true);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('content',$this->content,true);

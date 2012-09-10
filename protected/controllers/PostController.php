@@ -36,7 +36,7 @@ class PostController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
+				'users'=>array('admin','demo'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -133,8 +133,11 @@ class PostController extends Controller
 	{
 		$year = Yii::app()->request->getParam('year');
 		$month = Yii::app()->request->getParam('month');
-		
+		$tag = Yii::app()->request->getParam('tag');
 		$criteria = new CDbCriteria();
+		if(isset($tag)){
+			$criteria->addSearchCondition('tags',$tag);
+		}
 		if(!empty($month)){
 			$criteria=array(
 		      'condition'=>'created > :time1 AND created < :time2 AND status=2',
