@@ -46,7 +46,7 @@ return array(
 		),
 
 	),
-
+        
 	// application components
 	'components'=>array(
 		'assetManager'=>array(
@@ -62,6 +62,14 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+		
+		
+        'request'=>array(
+        	//CSRF防范
+            'enableCsrfValidation'=>true,
+            // Cookie攻击的防范
+            'enableCookieValidation'=>true,
+        ),
             
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
