@@ -1,0 +1,36 @@
+#login-form h1 a {
+    background-image: url("../images/logo.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 270px 80px;
+    display: block;
+    height: 67px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    text-indent: -9999px;
+}
+#login-form form {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 4px 10px -1px rgba(200, 200, 200, 0.7);
+    font-weight: normal;
+    margin-left: 8px;
+    padding: 26px 32px 48px 20px;
+}
+#login-form label{
+    font-size: 14px;
+    color: #777777;
+}
+
+#login-form form .input, #login-form input[type="text"] {
+    box-shadow: 1px 1px 2px rgba(200, 200, 200, 0.2) inset;
+    color: #555555;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 1;
+    margin-bottom: 16px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 10px 5px;
+    width: 100%;
+}

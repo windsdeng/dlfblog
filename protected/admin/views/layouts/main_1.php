@@ -13,6 +13,7 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/login_form.css" />
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
@@ -20,7 +21,7 @@
 <body>
 
 <div class="container" id="page">
-    <div style="margin:0 auto; padding:50px; width:500px;  " >
+    <div id="login-form" style="margin:0 auto; padding:60px 0; width:355px;" >
 	<?php echo $content; ?>
     </div>    
 	<div id="footer">

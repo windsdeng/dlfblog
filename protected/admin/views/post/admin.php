@@ -46,7 +46,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		array(
 			'name'=>'title',
 			'type'=>'raw',
-			'value'=>'CHtml::link(CHtml::encode($data->title), $data->url)'
+			'value'=>'CHtml::link(CHtml::encode($data->title), $data->url)',
 		),
 		array(
 			'name'=>'status',
