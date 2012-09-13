@@ -54,5 +54,5 @@ $this->breadcrumbs=array(
 </div><!-- form -->
 
 <div class="row" style="margin-left: 8px; padding-top: 10px;">
-     <p id="backtoblog"><?php echo CHtml::link('← 回到 '.Yii::app()->name, Yii::app()->baseUrl, array('title'=>'不知道自己在哪？')) ?></p>
+    <p id="backtoblog"><?php echo CHtml::link('← 回到 '.Yii::app()->name, Yii::app()->getBaseUrl(), array('title'=>'不知道自己在哪？')) ?></p>
 </div>
