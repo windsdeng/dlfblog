@@ -28,7 +28,7 @@
 		<h1>WindsDeng's Blog - <?php echo $this->settings->blogdescription ?></h1>
 	</div>-->
 	<div id="header">
-            <div id="logo"><a href="<?php echo Yii::app()->createUrl('home/index') ?>" title="<?php echo CHtml::encode($this->settings->site_name); ?>"></a></div>
+            <div id="logo"><a href="<?php echo Yii::app()->createUrl('/') ?>" title="<?php echo CHtml::encode($this->settings->site_name); ?>"></a></div>
 		<div id="top-ad">
 			ads
 		</div>
@@ -39,7 +39,7 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'id'=>'menu',
 			'items'=>array(
-				array('label'=>'Home', 'url'=>array('home/index')),
+				array('label'=>'Home', 'url'=>array('post/index')),
 				array('label'=>'About', 'url'=>array('site/page', 'view'=>'about')),
 				array('label'=>'Contact', 'url'=>array('site/contact')),
 			),

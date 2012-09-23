@@ -73,6 +73,7 @@ class Post extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'author' => array(self::BELONGS_TO, 'User', 'author_id'),
+            'category'=>array(self::BELONGS_TO,'Category','category_id'),
 			'comments' => array(self::HAS_MANY, 'Comment', 'post_id', 'condition'=>'comments.status='.Comment::STATUS_APPROVED, 'order'=>'comments.created DESC'),
 			'commentCount' => array(self::STAT, 'Comment', 'post_id', 'condition'=>'status='.Comment::STATUS_APPROVED),
 		);
@@ -231,7 +232,7 @@ class Post extends CActiveRecord
 		$criteria->compare('created',$this->created,true);
 		$criteria->compare('updated',$this->updated,true);
 		$criteria->compare('author_id',$this->author_id,true);
-
+        $criteria->compare('category_id',$this->category_id,true);
 		return new CActiveDataProvider($this, array(
 	        'sort'=>array(
 	            'defaultOrder'=>'created DESC', //设置默认排序是created倒序

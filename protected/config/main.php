@@ -8,7 +8,8 @@
 return array(
     'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
-	'defaultController'=>'home',
+	'defaultController'=>'post',
+    'theme'=>'classic',
 	// preloading 'log' component
         'preload'=>array(
 			'log',
@@ -59,13 +60,12 @@ return array(
 			'urlFormat'=>'path',
             'showScriptName' => false,
 			'rules'=>array(
-                '/'=>'home/index',
-				'<controller:\w+>-<id:\d+>-<title:.*?>'=>'<controller>/view',
+               // '/'=>'home/index', //使用home
+				'view/<controller:\w+>-<title:.*?>-<id:\d+>'=>'<controller>/view',
                 'tags/<tag:.*?>'=>'post/index',
+                'category/<alias:.*?>-<category:.*?>'=>'post/index',
                 'date/<year:\d+>-<month:\d+>'=>'post/index',
-				'<controller:\w+>-<action:\w+>-<id:\d+>-<title:\d+>'=>'<controller>/<action>',
-				/**'contact'=>'site/contact',
-                '<view:.*?>'=>'site/page',*/
+				'<controller:\w+>-<action:\w+>-<title:\d+>-<id:\d+>'=>'<controller>/<action>',
                 '<controller:\w+>-<action:\w+>'=>'<controller>/<action>',
                 
 			),

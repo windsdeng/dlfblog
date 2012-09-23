@@ -3,7 +3,7 @@
 // this contains the application parameters that can be maintained via GUI
 return array(
 	// this is used in error pages
-	'adminEmail'=>'webmaster@example.com',
+	'adminEmail'=>'winds@dlf5.com',
 	// number of posts displayed per page
 	'postsPerPage'=>10,
 	// maximum number of comments that can be displayed in recent comments portlet
