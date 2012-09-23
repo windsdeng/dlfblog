@@ -24,7 +24,7 @@
 	<div id="header">
         <div id="top">
             <div id="header-info">
-                <a href="<?php echo Yii::app()->createUrl('/') ?>" id="header-logo" title="<?php echo CHtml::encode($this->settings->site_name); ?>"><span><?php echo CHtml::encode($this->settings->site_name); ?></span></a>
+                <a href="<?php echo Yii::app()->createUrl('post/index') ?>" id="header-logo" title="<?php echo CHtml::encode($this->settings->site_name); ?>"><span><?php echo CHtml::encode($this->settings->site_name); ?></span></a>
                    
                     <?php $this->widget('zii.widgets.CMenu',array(
                         'id'=>'menu',
