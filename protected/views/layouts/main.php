@@ -62,6 +62,7 @@
 		<?php echo Yii::powered(); ?>
 		<?php echo $this->settings->icp?>
 		<?php echo $this->settings->footer_info?>
+        <script type="text/javascript" src="http://js.tongji.linezing.com/2975299/tongji.js"></script>
 	</div><!-- footer -->
 
 </div><!-- page -->

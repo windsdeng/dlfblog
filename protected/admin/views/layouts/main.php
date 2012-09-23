@@ -71,6 +71,7 @@
 		Copyright &copy; <?php echo date('Y'); ?> by 林锋工作室.
 		All Rights Reserved.
 		Powered by <a href="http://www.dlf5.net/" rel="external">dlf.net</a>.
+        <script type="text/javascript" src="http://js.tongji.linezing.com/2975299/tongji.js"></script>
 	</div><!-- footer -->
 
 </div><!-- page -->

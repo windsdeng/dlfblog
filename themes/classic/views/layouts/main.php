@@ -65,6 +65,7 @@
         </div>
     </div>
     <!-- 脚部结束 --> 
+    <script type="text/javascript" src="http://js.tongji.linezing.com/2975299/tongji.js"></script>
         <!--[if IE 6]>
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/js/png24.js" ></script>
         <script type="text/javascript">DD_belatedPNG.fix('a#header-logo,.up,.top');</script>
