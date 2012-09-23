@@ -60,7 +60,7 @@ return array(
 			'urlFormat'=>'path',
             'showScriptName' => false,
 			'rules'=>array(
-               // '/'=>'home/index', //使用home
+                '/'=>'post/index', //使用home
 				'view/<controller:\w+>-<title:.*?>-<id:\d+>'=>'<controller>/view',
                 'tags/<tag:.*?>'=>'post/index',
                 'category/<alias:.*?>-<category:.*?>'=>'post/index',
