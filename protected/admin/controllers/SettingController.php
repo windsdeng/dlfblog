@@ -37,6 +37,7 @@ class SettingController extends Controller
 			$model->$key = $value;
 		}
 		
+		
 		if(isset($_POST['SettingForm']))
 		{
 			$model->attributes=$_POST['SettingForm'];
@@ -45,7 +46,7 @@ class SettingController extends Controller
 				$option_value = json_encode($model->attributes);
 				$option_name = 'settings';
 				//TODO 未完成
-				$this->refresh();
+				//$this->refresh();
 			}
 		}
 		

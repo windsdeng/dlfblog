@@ -42,6 +42,10 @@ $this->breadcrumbs=array(
         <?php echo CHtml::activeTextField($model,'default_editor') ?>
 	</div>
 	<div class="row">
+		<?php echo CHtml::activeLabel($model,'theme'); ?>
+        <?php echo CHtml::activeTextField($model,'theme') ?>
+	</div>
+	<div class="row">
 		<?php echo CHtml::activeLabel($model,'email'); ?>
         <?php echo CHtml::activeTextField($model,'email') ?>
 	</div>

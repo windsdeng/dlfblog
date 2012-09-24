@@ -16,6 +16,7 @@ class SettingForm extends CFormModel
 	public $copyright;
 	public $blogdescription;
 	public $default_editor;
+	public $theme;
 	public $email;
 	public $rss_output_num;
 	public $rss_output_fulltext;
