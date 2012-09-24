@@ -7,9 +7,12 @@
             <h3><?php echo CHtml::link(CHtml::encode($data->title), $data->url); ?></h3>
             <p>
               <?php echo $data->author->username; ?> /
+              <?php if(isset($data->category->id) !=0): ?>
               <?php echo CHtml::link("{$data->category->name}",
                       array('post/index','category'=>$data->category->id,'alias'=>$data->category->alias),
-                      array('title'=>$data->category->name,'target'=>'_blank')) ?>/
+                      array('title'=>$data->category->name,'target'=>'_blank')) 
+              ?>/
+              <?php endif;?>
                 <span><?php echo date('F j, Y',$data->created) ?></span> / 
                  标签: <?php echo implode(', ', $data->tagLinks); ?>
             </p>

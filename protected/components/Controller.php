@@ -31,5 +31,6 @@ class Controller extends CController
 		$settins_json = Options::model()->find('option_name=:option_name', array(':option_name'=>'settings'));
 		$this->settings = json_decode($settins_json->attributes['option_value']);
 		Yii::app()->name = $this->settings->site_name;
+		
 	}
 }
