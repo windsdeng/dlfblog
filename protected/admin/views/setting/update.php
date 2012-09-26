@@ -1,9 +1,10 @@
 <?php
-$this->breadcrumbs=array(
-	'Setting',
-);?>
-<h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
 
+$this->breadcrumbs=array(
+	Yii::t('backend', 'Setting'),
+);?>
+
+<h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
 <div class="form">
 <?php echo CHtml::beginForm(); ?>
 	 <?php echo CHtml::errorSummary($model); ?>
@@ -95,7 +96,7 @@ $this->breadcrumbs=array(
 	<div class="row buttons">
 		<?php $this->widget('zii.widgets.jui.CJuiButton', array(
 			     	'name'=>'submit',
-			  		'caption'=>'Save',
+			  		'caption'=>Yii::t('backend', 'Save'),
 			  		'options'=>array(
 			          	'onclick'=>'js:function(){alert("Yes");}',
 		  		),

@@ -1,12 +1,12 @@
 <?php
 $this->breadcrumbs=array(
-	'Attachments'=>array('index'),
-	'Manage',
+	Yii::t('backend', 'Attachments')=>array('index'),
+	Yii::t('backend', 'Manage'),
 );
 
 $this->menu=array(
 	array('label'=>'List Attachment','url'=>array('index')),
-	array('label'=>'Create Attachment','url'=>array('create')),
+	array('label'=>Yii::t('backend', 'Create Attachment'),'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -23,7 +23,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Attachments</h1>
+<h1><?php echo Yii::t('backend', 'Manage Attachments')?></h1>
 
 <p>
 You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>

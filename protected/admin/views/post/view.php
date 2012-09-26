@@ -24,7 +24,11 @@ $this->menu=array(
 		'summary',
 		'tags',
 		'status',
-		'created',
+		array(
+			'name'=>'created',
+			'type'=>'datetime',
+			'filter'=>false,
+		),
 		'updated',
 		'author_id',
 		'category_id',

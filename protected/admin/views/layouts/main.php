@@ -31,14 +31,14 @@
 		        array(
 		            'class'=>'bootstrap.widgets.BootMenu',
 		            'items'=>array(
-		               array('label'=>'网站设置', 'url'=>array('/setting/update')),
-						array('label'=>'用户管理', 'url'=>array('/user/admin')),
-						array('label'=>'分类管理', 'url'=>array('/category/admin')),
-						array('label'=>'文章管理', 'url'=>array('/post/admin')),
-						array('label'=>'标签管理', 'url'=>array('/tag/admin')),
-						array('label'=>'评论管理', 'url'=>array('/comment/admin')),
-						array('label'=>'友情链接', 'url'=>array('/link/admin')),
-						array('label'=>'附件管理', 'url'=>array('/attachment/admin')),	
+		                array('label'=>Yii::t('backend', 'Site Setting'), 'url'=>array('/setting/update')),
+						array('label'=>Yii::t('backend', 'Manage Users'), 'url'=>array('/user/admin')),
+						array('label'=>Yii::t('backend', 'Manage Categories'), 'url'=>array('/category/admin')),
+						array('label'=>Yii::t('backend', 'Manage Posts'), 'url'=>array('/post/admin')),
+						array('label'=>Yii::t('backend', 'Manage Tags'), 'url'=>array('/tag/admin')),
+						array('label'=>Yii::t('backend', 'Manage Comments'), 'url'=>array('/comment/admin')),
+						array('label'=>Yii::t('backend', 'Manage Links'), 'url'=>array('/link/admin')),
+						array('label'=>Yii::t('backend', 'Manage Attachments'), 'url'=>array('/attachment/admin')),	
 					),
 				),
 		       
@@ -48,10 +48,10 @@
 		            'items'=>array(
 		                array('label'=>Yii::app()->user->username, 'url'=>array('user/view','id'=>Yii::app()->user->id), 
 							'items'=>array(
-			                    array('label'=>'我的资料', 'url'=>'#'),
-			                    array('label'=>'修改密码', 'url'=>'#'),
+			                    array('label'=>Yii::t('backend', 'My Detail'), 'url'=>array('user/view','id'=>Yii::app()->user->id)),
+			                    array('label'=>Yii::t('backend', 'Update').Yii::t('backend', 'Password'), 'url'=>array('user/update','id'=>Yii::app()->user->id)),
 			                    '---',
-			                    array('label'=>'退出', 'url'=>array('site/logout')),
+			                    array('label'=>Yii::t('backend', 'Logout'), 'url'=>array('site/logout')),
 		                )),
 		            ),
 		        ),

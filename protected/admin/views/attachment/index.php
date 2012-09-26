@@ -1,11 +1,11 @@
 <?php
 $this->breadcrumbs=array(
-	'Attachments',
+	Yii::t('backend', 'Attachments'),
 );
 
 $this->menu=array(
-	array('label'=>'Create Attachment','url'=>array('create')),
-	array('label'=>'Manage Attachment','url'=>array('admin')),
+	array('label'=>Yii::t('backend', 'Create Attachment'),'url'=>array('create')),
+	array('label'=>Yii::t('backend', 'Manage Attachment'),'url'=>array('admin')),
 );
 ?>
 

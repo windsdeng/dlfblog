@@ -19,6 +19,7 @@ return array(
     'runtimePath' => $backend.'/runtime',
 	'name'=>'DLFBLOG BACKEND',
 	'defaultController'=>'setting/update',
+	'language'=>'zh_cn',
 	// preloading 'log' component
      'preload'=>array(
 			'log',

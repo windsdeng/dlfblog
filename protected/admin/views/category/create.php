@@ -1,12 +1,12 @@
 <?php
 $this->breadcrumbs=array(
-	'Categories'=>array('index'),
-	'Create',
+	Yii::t('backend', 'Categories')=>array('index'),
+	Yii::t('backend', 'Create'),
 );
 
 $this->menu=array(
 	array('label'=>'List Category','url'=>array('index')),
-	array('label'=>'Manage Category','url'=>array('admin')),
+	array('label'=>Yii::t('backend', 'Manage Category'),'url'=>array('admin')),
 );
 ?>
 

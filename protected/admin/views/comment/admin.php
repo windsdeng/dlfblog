@@ -6,7 +6,6 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'List Comment','url'=>array('index')),
-	array('label'=>'Create Comment','url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -45,7 +44,11 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'id',
 		'content',
 		'status',
-		'created',
+		array(
+			'name'=>'created',
+			'type'=>'datetime',
+			'filter'=>false,
+		),
 		'author',
 		'email',
 		/*

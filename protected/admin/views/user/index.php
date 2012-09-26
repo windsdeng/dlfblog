@@ -1,11 +1,11 @@
 <?php
 $this->breadcrumbs=array(
-	'Users',
+	Yii::t('backend', 'Users'),
 );
 
 $this->menu=array(
-	array('label'=>'Create User','url'=>array('create')),
-	array('label'=>'Manage User','url'=>array('admin')),
+	array('label'=>Yii::t('backend', 'Create User'),'url'=>array('create')),
+	array('label'=>Yii::t('backend', 'Manage Users'),'url'=>array('admin')),
 );
 ?>
 

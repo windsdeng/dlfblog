@@ -1,15 +1,15 @@
 <?php
 $this->breadcrumbs=array(
-	'Attachments'=>array('index'),
+	Yii::t('backend', 'Attachments')=>array('index'),
 	$model->id=>array('view','id'=>$model->id),
-	'Update',
+	Yii::t('backend', 'Update'),
 );
 
 $this->menu=array(
 	array('label'=>'List Attachment','url'=>array('index')),
-	array('label'=>'Create Attachment','url'=>array('create')),
 	array('label'=>'View Attachment','url'=>array('view','id'=>$model->id)),
-	array('label'=>'Manage Attachment','url'=>array('admin')),
+	array('label'=>Yii::t('backend', 'Create Attachment'),'url'=>array('create')),
+	array('label'=>Yii::t('backend', 'Manage Attachment'),'url'=>array('admin')),
 );
 ?>
 
