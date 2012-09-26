@@ -34,6 +34,7 @@ class Controller extends CController
 		//初始化网站名称 
 		Yii::app()->name = $this->settings->site_name;
 		
+		
 		//初始化网站主题
 		Yii::app()->theme = $this->settings->theme;
 		
