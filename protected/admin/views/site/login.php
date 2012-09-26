@@ -42,7 +42,7 @@ $this->breadcrumbs=array(
             <?php $this->widget('bootstrap.widgets.BootButton', array(
                 'buttonType'=>'submit',
                 'type'=>'primary',
-                'label'=>'Login',
+                'label'=>Yii::t('backend', 'Login'),
                 'loadingText'=>'Login...',
                 'htmlOptions'=>array('id'=>'buttonStateful'),
             )); ?>
