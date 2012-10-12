@@ -1,29 +1,24 @@
-DLFBLOG 1.0
------------
+#DLFBLOG 1.0
 
-基于Yii 框架开发的博客！ 
+##基于Yii 框架开发的博客！ 
 
 
-Quick start
------------
+##Quick start
 
 Clone the repo, `git clone git://github.com/windsdeng/dlfblog.git`, or [download the latest release](https://github.com/windsdeng/dlfblog/zipball/master).
 
 
-Bug tracker
------------
+##Bug tracker
 
 Have a bug? Please create an issue here on GitHub! Also, when filing please make sure you're familiar with [necolas's guidelines](https://github.com/necolas/issue-guidelines). thanks! <3
 
 https://github.com/windsdeng/dlfblog/issues
 
-DLFBLOG DEMO 
------------
+##DLFBLOG DEMO 
+
 http://demo.dlf5.net
 
-
-QQ交流群
------------
+##QQ交流群
 ```
 1、185207750
 2、200505420
@@ -35,8 +30,7 @@ QQ交流群
 8、22594451
 ```
 
-Author
-------
+##Author
 
 **WindsDeng** 
 
@@ -44,8 +38,7 @@ Author
 + https://github.com/windsdeng
 
 
-Copyright and license
----------------------
+##Copyright and license
 
 The DLFBLOG is free software. It is released under the terms of
 the following BSD License.
