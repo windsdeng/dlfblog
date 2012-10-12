@@ -36,6 +36,8 @@ http://demo.dlf5.net
 
 + http://www.dlf5.com
 + https://github.com/windsdeng
++ http://www.weibo.com/windsdeng
++ http://1.t.qq.com/fz-iloveyou
 
 
 ##Copyright and license
