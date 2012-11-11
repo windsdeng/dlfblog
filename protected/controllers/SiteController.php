@@ -69,7 +69,99 @@ class SiteController extends Controller
 	/**
 	 * Displays the login page
 	 */
-	public function actionLogin()
+    public function actionWblogin()
+    {
+        if(isset($_REQUEST['state'])==Yii::app()->session['sina_state']){
+            if(isset($_REQUEST['code'])){
+                Yii::import('ext.oauthLogin.sina.sinaWeibo',true);
+                $keys = array();
+                $keys['code'] = $_REQUEST['code'];
+                $keys['redirect_uri'] = WB_CALLBACK_URL;
+                try {
+                    $weibo = new SaeTOAuthV2(WB_AKEY,WB_SKEY);
+                    $sinaToken = $weibo->getAccessToken('code',$keys);
+                } catch (CHttpException $e) {
+
+                }
+                //获取认证
+                 if (isset($sinaToken)) {
+                    Yii::app()->session->add('sinaToken',$sinaToken);
+                    //查询微博的账号信息
+                    $c = new SaeTClientV2( WB_AKEY , WB_SKEY ,Yii::app()->session['sinaToken']['access_token']);
+                    $userShow  = $c->getUserShow(Yii::app()->session['sinaToken']); // done
+                    //查询是否有绑定账号   
+                    $user = UserBinding::model()->with('user')->find('user_bind_type = :bind_type AND user_access_token = :access_token AND user_openid=:openid',array(':bind_type' =>'sina',':access_token' =>Yii::app()->session['sinaToken']['access_token'],':openid' =>Yii::app()->session['sinaToken']['uid']));
+                    //如果没有存在则创建账号及绑定
+                    if (!isset($user)){
+                        $userBingding = array();
+                        $userBingding['access_token'] = Yii::app()->session['sinaToken']['access_token'];
+                        $userBingding['openid'] = Yii::app()->session['sinaToken']['uid'];
+                        $userBingding['username'] = $userShow['screen_name'];
+                        $userBingding['bind_type'] = 'sina';
+                        $userBingding['avatar'] = $userShow['profile_image_url']; 
+                        $userBind = UserBinding::addBinding($userBingding, $_REQUEST['state']);
+                    }else{
+                        Yii::app()->user->id = $user->user_id;
+                        Yii::app()->user->name = $user->user->username;
+                    }
+                        
+                    $this->redirect(Yii::app()->session['back_url']);
+                 }  else {
+                     echo '认证失败';
+                 }
+            }
+        }
+    }
+    
+    public function actionQqlogin()
+    {
+        if(isset($_REQUEST['state'])==Yii::app()->session['qq_state']){
+          if(isset($_REQUEST['code'])){
+                Yii::import('ext.oauthLogin.qq.qqConnect',true);
+                $keys = array();
+                $keys['code'] = $_REQUEST['code'];
+                $keys['state'] = Yii::app()->session['qq_state'];
+                $keys['redirect_uri'] = QQ_CALLBACK_URL;
+                try {
+                    $qqConnect = new qqConnectAuthV2(QQ_APPID,QQ_APPKEY);
+                    $qqToken = $qqConnect->getAccessToken('code',$keys);
+                } catch (CHttpException $e) {
+
+                }
+                
+                if (isset($qqToken)) {
+                    Yii::app()->session->add('qqToken',$qqToken);
+                    Yii::import('ext.oauthLogin.qq.qqConnect',true);
+                    $c = new qqConnectAuthV2(QQ_APPID,QQ_APPKEY);
+                    $userInfo = $c->getUserInfo(Yii::app()->session['qqToken']);
+                    $userShow= array();
+                    $userShow['screen_name'] = $userInfo['nickname'];
+                    $userShow['profile_image_url'] = $userInfo['figureurl_2'];
+                    //查询是否有绑定账号   
+                    $user = UserBinding::model()->with('user')->find('user_bind_type = :bind_type and user_openid=:openid',array(':bind_type' =>'qq',':openid' =>Yii::app()->session['qqToken']['openid']));
+                    
+                    //如果没有存在则创建账号及绑定
+                    if (!isset($user)){
+                        $userBingding = array();
+                        $userBingding['access_token'] = Yii::app()->session['qqToken']['access_token'];
+                        $userBingding['openid'] = Yii::app()->session['qqToken']['openid'];
+                        $userBingding['username'] = $userShow['screen_name'];
+                        $userBingding['bind_type'] = 'qq';
+                        $userBingding['avatar'] = $userShow['profile_image_url']; 
+                        $userBind = UserBinding::addBinding($userBingding, $_REQUEST['state']);
+                    }else{
+                        Yii::app()->user->id = $user->user_id;
+                        Yii::app()->user->name = $user->user->username;
+                    }
+                    $this->redirect(Yii::app()->session['back_url']);
+                }  else {
+                    echo '认证失败';
+                }
+          }
+       }
+    }
+
+    public function actionLogin()
 	{
 		$model=new LoginForm;
 

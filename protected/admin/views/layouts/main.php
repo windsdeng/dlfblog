@@ -39,7 +39,8 @@
 						array('label'=>Yii::t('backend', 'Manage Comments'), 'url'=>array('/comment/admin')),
 						array('label'=>Yii::t('backend', 'Manage Links'), 'url'=>array('/link/admin')),
 						array('label'=>Yii::t('backend', 'Manage Attachments'), 'url'=>array('/attachment/admin')),	
-					),
+                        array('label'=>Yii::t('backend', 'Manage Widgets'), 'url'=>array('/widgets/admin')),	
+                    ),
 				),
 		       
 		        array(

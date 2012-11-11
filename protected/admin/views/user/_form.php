@@ -11,11 +11,9 @@
 
 	<?php echo $form->textFieldRow($model,'nickname',array('class'=>'span5','maxlength'=>32)); ?>
 
-	<?php echo $form->passwordFieldRow($model,'password',array('class'=>'span5','maxlength'=>128)); ?>
+	<?php //echo $form->passwordFieldRow($model,'password',array('class'=>'span5','maxlength'=>128)); ?>
 
 	<?php echo $form->textFieldRow($model,'avatar',array('class'=>'span5','maxlength'=>128)); ?>
-
-	<?php echo $form->textFieldRow($model,'salt',array('class'=>'span5','maxlength'=>128)); ?>
 
 	<?php echo $form->textFieldRow($model,'email',array('class'=>'span5','maxlength'=>128)); ?>
 

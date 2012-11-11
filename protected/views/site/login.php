@@ -16,7 +16,13 @@ $this->breadcrumbs=array(
 	'clientOptions'=>array(
 		'validateOnSubmit'=>true,
 	),
-)); ?>
+));
+
+$this->widget('ext.oauthLogin.OauthLogin',array(
+   'itemView'=>'medium_login',
+   'back_url'=>Yii::app()->homeUrl,
+));
+?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 

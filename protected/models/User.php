@@ -40,7 +40,7 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('username, nickname, password, salt, email, counts', 'required'),
+			array('username, nickname, password, salt, counts', 'required'),
 			array('username, password, avatar, salt, email', 'length', 'max'=>128),
 			array('nickname', 'length', 'max'=>32),
 			array('profile', 'safe'),
@@ -58,6 +58,7 @@ class User extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'posts' => array(self::HAS_MANY, 'Post', 'author_id'),
+            'bind'=>array(self::HAS_MANY,'UserBinding','user_id'),
 		);
 	}
 

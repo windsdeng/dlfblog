@@ -64,6 +64,9 @@ return array (
   'Attachments' => '附件',
   'Create Attachments' => '创建附件',
   'Update Attachments' => '更新附件',
+    
+  //Manage Widgets
+  'Manage Widgets' => '扩展管理',  
   //其它
   'Password' => '密码',
   'My Detail' => '我的资料',

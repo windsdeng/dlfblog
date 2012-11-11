@@ -6,7 +6,11 @@ $this->breadcrumbs=array(
 
 <h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
 <div class="form">
-<?php echo CHtml::beginForm(); ?>
+<?php /** @var BootActiveForm $form */
+$form = $this->beginWidget('bootstrap.widgets.BootActiveForm', array(
+    'id'=>'setting-form',
+   // 'type'=>'horizontal',
+)); ?>
 	 <?php echo CHtml::errorSummary($model); ?>
 
 	<div class="row">
@@ -26,7 +30,7 @@ $this->breadcrumbs=array(
 	
 	<div class="row">
 		<?php echo CHtml::activeLabel($model,'description'); ?>
-        <?php echo CHtml::activeTextField($model,'description') ?>
+        <?php echo CHtml::activeTextArea($model,'description') ?>
 	</div>
 	
 	<div class="row">
@@ -104,5 +108,5 @@ $this->breadcrumbs=array(
 		?>
 	</div>
 	
-<?php echo CHtml::endForm(); ?>
+<?php $this->endWidget(); ?>
 </div><!-- form -->
