@@ -1,6 +1,12 @@
 <ul>
 	<?php if(Yii::app()->user->isGuest): ?>
-    <li><?php echo CHtml::link('Login',array('site/login')); ?></li>
+    
+    <li>
+        <?php $this->widget('ext.oauthLogin.OauthLogin',array(
+            'itemView'=>'medium_login',
+            'back_url'=>Yii::app()->homeUrl,
+         )); ?>
+        <?php echo CHtml::link('Login',array('site/login')); ?></li>
     <?php endif; ?>
 	<?php if(!Yii::app()->user->isGuest): ?>
     <li><?php echo CHtml::link('Create New Post',array('post/create')); ?></li>
